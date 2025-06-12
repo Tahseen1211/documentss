@@ -1,0 +1,1424 @@
+MYSQL 
+
+DATABASES: 
+
+It is used to store the data. 
+
+File: 
+
+Folders: Store multiple files. 
+
+Excel: We used to store data in the Form of a structure. 
+
+DRAWBACK:  
+
+We can store the data, but we can’t organize the data and function. 
+
+10 records------> 10 seconds 
+
+100 records-------> 100 seconds. 
+
+DBMS: DATABASE MANAGEMENT SYSTEM: 
+
+DBMS Use to store the data in the form of table challenge. 
+
+The relations are not possible to access in this DBMS. 
+
+To overcome this challenge, they have discovered RDBMS. 
+
+RDBMS --> Relational Database Management System. 
+
+We can store the data in the form tables and we can help them on to different locations of other tables. 
+
+Compare to DBMS it will retrieve the data very Fastly. 
+
+We can perform the operations very effectively. 
+
+CLASSIFICATION OF DBMS: 
+
+DBMS is classified into two types: 
+
+RDBMS and NON-RDBMS (store the data in the key value format) 
+
+MYSQL 
+
+Is a server (platform)with SQL structured query language. 
+
+In real time to create a project we need. 
+
+Front end, 
+
+Back end, 
+
+Database. 
+
+Components of database: 
+
+Client: In order to perform. 
+
+Server: More than Two. 
+
+In order to access the server, we have two platforms. 
+
+CLI: Client Line Interface. 
+
+GUI: Graphical User Interface. 
+
+  Who Uses the MySQL – websites – Facebook, what sup, uber, YouTube, GitHub etc., 
+
+ Web development 
+
+ SQL: standard query language going to deal with RDBMS. 
+
+SQL is used to; 
+
+To insert the data, 
+
+Search the data, 
+
+Update the data, 
+
+Modify the data, 
+
+Delete the data, 
+
+Copy the data. 
+
+HOW TO USE SQL: 
+
+We use syntax like: 
+
+Select * from table name, 
+
+Select * from customers. 
+
+FEW SQL COMMANDS:  
+
+SELECT: extract data from database. 
+
+UPDATE: Updates data in database. 
+
+DELETE: Deletes the data. 
+
+INSERT INTO:  Insert new data into a table or database.  
+
+CREATE DATABASE: creates a new data. 
+
+ALTER DATABASE: Modifies a database. 
+
+CREATES TABLE: Creates a new table. 
+
+DROP TABLE: Delete a table. 
+
+CREATE INDEX: It is used to create an index (search key). 
+
+DROP INDEX: Delete created index. 
+
+ 
+
+SELECT STATEMENT; 
+
+The select statement in MYSQL is used to select the data from a database (table). 
+
+SYNTAX: Select col1, col2,.. Coln from table name; 
+
+      MYSQL: Select Name, Gender, Population; 
+
+EXAMPLES: 
+
+mysql>  
+
+select choco_calorie from chocolates; 
+
+Picture 
+
+select veg_name, veg_type from vegetables; 
+
+Picture 
+
+select emp_name, gender from employee3; 
+
+Picture 
+
+select stud_name, Result from result; 
+
+Picture 
+
+select Name, Marks from student1; 
+
+Picture 
+
+select Name, Age from population; 
+
+Picture 
+
+Select telugu, hindi from marks; 
+
+Picture 
+
+select country_name, occupation from population; 
+
+Picture 
+
+mysql> select state from lakes; 
+
+Picture 
+
+select lakes from lakes; 
+
+Picture 
+
+ 
+
+ 
+
+ 
+
+DISTINCT STATEMENT:  
+
+This statement is used to select only the different values from table name. 
+
+SYNTAX: Select distinct col1, coln2,...  from table name; 
+
+     MYSQL: Select distinct name, country name, from population. 
+
+ 
+
+EXAMPLES:  
+
+mysql> 
+
+ select distinct choco_name from chocolates; 
+
+Picture 
+
+select distinct  veg_type from vegetables; 
+
+Picture 
+
+select distinct emp_name,emp_birth_day from employee3; 
+
+Picture 
+
+select distinct stud_name, course from result; 
+
+Picture 
+
+select distinct Name from student1; 
+
+Picture 
+
+select distinct age, population from population; 
+
+Picture 
+
+Select distinct telugu, hindi from marks; 
+
+ 
+
+ 
+
+8.select distinct qualification, occupation from population; 
+
+ 
+
+ 
+
+ 
+
+ select distinct state from lakes; 
+
+ 
+
+ select distinct lakes from lakes; 
+
+ 
+
+ 
+
+WHERE CLAUSE: 
+
+Where clause in MYSQL is used to filter the records. 
+
+SYNTAX: Select col1, col2, from table name where condition; 
+
+     MYSQL: select Name, Age from Population where Gender= ‘female’. 
+
+ 
+
+EXAMPLES: 
+
+mysql> 
+
+ select choco_name, choco_calorie from chocolates where choco_calorie="25"; 
+
+Picture 
+
+ select veg_name, veg_type from vegetables where veg_type="flower"; 
+
+ 
+
+select emp_name,emp_birth_day from employee3 where gender="female"; 
+
+Picture 
+
+select stud_name from result where Result="Awaited"; 
+
+Picture 
+
+select Name from student1 where Marks="75"; 
+
+Picture 
+
+select Name, Qualification from population where age=29; 
+
+ 
+
+select Telugu from marks where hindi=98; 
+
+ 
+
+select age, occupation from population where  age=32; 
+
+ 
+
+select emp_name from employee3 where gender="female"; 
+
+ 
+
+select emp_birth_day from employee3 where gender="female"; 
+
+ 
+
+ 
+
+ 
+
+We can also use operators in Where clause: 
+
+EQUAL: select * from population where age = 22; 
+
+mysql>  
+
+ select * from chocolates where choco_name="oreo"; 
+
+Picture 
+
+select * from vegetables where veg_type="flower"; 
+
+ 
+
+select * from employee3 where emp_birth_day="27"; 
+
+Picture 
+
+select * from result where course="BCom"; 
+
+Picture 
+
+select marks from student1 where subject="C++"; 
+
+Picture 
+
+Select * from population where age=28; 
+
+ 
+
+select * from marks where hindi=87; 
+
+ 
+
+select * from population where occupation="student"; 
+
+ 
+
+select * from employee3 where emp_birth_day=28; 
+
+ 
+
+select * from employee3 where gender="female"; 
+
+ 
+
+ 
+
+Greater Than: select * from population where age>22; 
+
+EXAMPLES: 
+
+select choco_name, choco_calorie from chocolates where choco_calorie>"25"; 
+
+Picture 
+
+select * from vegetables where veg_type>"flower; 
+
+ 
+
+ 
+
+select * from employee3 where emp_birth_day>25; 
+
+Picture 
+
+select * from result where Result>"Awaited"; 
+
+Picture 
+
+select * from student1 where marks>65; 
+
+Picture 
+
+Select * from population where age>25; 
+
+ 
+
+select * from marks where telugu>89; 
+
+ 
+
+select * from population where age>32; 
+
+ 
+
+select * from employee3 where gender>"female"; 
+
+ 
+
+select * from employee3 where emp_birth_day>28; 
+
+ 
+
+ 
+
+Less Than: select * from population where age<22; 
+
+ 
+
+EXAMPLES 
+
+select choco_name, choco_calorie from chocolates where choco_calorie<"100"; 
+
+Picture 
+
+Select * from vegetables where veg_type<"root veg"; 
+
+ 
+
+select * from employee3 where emp_birth_day<27; 
+
+Picture 
+
+select * from result where Result<"Passed"; 
+
+Picture 
+
+select * from student1 where marks<70; 
+
+Picture 
+
+Select * from population where population <20; 
+
+ 
+
+select * from marks where telugu<89; 
+
+ 
+
+select * from population where age<25; 
+
+ 
+
+select * from employee3 where emp_birth_day<28; 
+
+ 
+
+select * from employee3 where emp_birth_day<30; 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Greater than Equals to:  select * from population where age>=22; 
+
+ 
+
+EXAMPLES: 
+
+select * from chocolates where choco_calorie>="20"; 
+
+Picture 
+
+Select * from vegetables where veg_type>= “flower”; 
+
+ 
+
+select * from employee3 where emp_birth_day>=26; 
+
+Picture 
+
+select * from result where Result>="Passed"; 
+
+Picture 
+
+select * from student1 where marks>=90; 
+
+Picture 
+
+select * from Population where age>=40; 
+
+ 
+
+select * from marks where english>=99; 
+
+ 
+
+select * from population where age>=35; 
+
+ 
+
+select * from employee3 where emp_birth_day>=25; 
+
+ 
+
+select * from employee3 where emp_birth_day>=30; 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Less than equals to: select * from population where age<=22; 
+
+mysql> 
+
+select * from chocolates where choco_calorie<="70"; 
+
+Picture 
+
+Select * from vegetables where veg_type<= “flower”; 
+
+  
+
+select * from employee3 where emp_birth_day<=25; Empty set (0.00 sec) 
+
+select * from result where Result<="Awaited"; 
+
+Picture 
+
+select * from student1 where marks<=90; 
+
+Picture 
+
+select * from Population where age<=20; 
+
+ 
+
+select * from marks where english<=99; 
+
+ 
+
+select * from population where age<=25; 
+
+ 
+
+select * from employee3 where emp_birth_day<=28; 
+
+ 
+
+select * from employee3 where emp_birth_day<=27; 
+
+ 
+
+ 
+
+Not equals to: select * from population where age!=22; 
+
+ 
+
+EXAMPLES: 
+
+select * from chocolates where choco_calorie!="30"; 
+
+Picture 
+
+Select * from vegetables where veg_type != “flower”; 
+
+ 
+
+select * from employee3 where emp_birth_day!=27; 
+
+Picture 
+
+select * from result where course!="BCom"; 
+
+Picture 
+
+select * from student1 where marks!=70; 
+
+Picture 
+
+select * from Population where occupation!="student"; 
+
+ 
+
+select * from marks where hindi!=89; 
+
+ 
+
+select * from population where gender!="male"; 
+
+ 
+
+select * from employee3 where gender!="female"; 
+
+ 
+
+select * from employee3 where emp_birth_day!=28; 
+
+ 
+
+ 
+
+Between: select * from population where age between 20 and 30; 
+
+EXAMPLES: 
+
+select * from chocolates where choco_calorie between 100 and 200; 
+
+Picture 
+
+select * from vegetables where veg_type between “tuber” and “flower”; 
+
+ 
+
+select * from employee3 where emp_birth_day between 25 and 27; 
+
+Picture 
+
+select * from result where course between 'BCom' and 'BSc'; 
+
+Picture 
+
+select * from student1 where marks between 30 and 50; 
+
+Picture 
+
+select * from Population where age between 25 and 30; 
+
+ 
+
+Select * from marks where telugu between 60 and 90; 
+
+ 
+
+select * from Population where population between 10 and 15; 
+
+ 
+
+select * from employee3 where emp_birth_day between 27 and 30; 
+
+ 
+
+select * from employee3 where emp_birth_day between 29 and 30; 
+
+ 
+
+ 
+
+In: select * from population where country name in (‘Paris’, ‘China’) 
+
+ 
+
+EXAMPLES: 
+
+select * from chocolates where choco_name in ('lollipop','jellies'); 
+
+Picture 
+
+select * from employee3 where emp_name in ('Kelly','Josh'); 
+
+Picture 
+
+select * from result where stud_name in ('Neha','Nishanth'); 
+
+Picture 
+
+select * from student1 where subject in ('C++','OS'); 
+
+Picture 
+
+select * from Population where qualification in ("BCom","BSc"); 
+
+ 
+
+Select * from marks where telugu in ('68','78'); 
+
+ 
+
+select * from Population where country_name in ("russia","japan"); 
+
+ 
+
+select * from employee3 where  emp_name in("angela","josh"); 
+
+ 
+
+select * from employee3 where emp_birth_day in ("27","30"); 
+
+ 
+
+select * from employee3 where  emp_name in("bravo","jam"); 
+
+ 
+
+WHERE CLAUSE USING LOGICAL OPERATORS: 
+
+AND: displays a record if, all the conditions separate by AND are true. 
+
+SYNTAX: select col1, col2 from the table where condition1 AND condition2 AND condition3; 
+
+EXAMPLES: 
+
+select * from employee3 where emp_birth_day>=20 and gender="female"; 
+
+Picture 
+
+select * from result where course='bsc' and Result='Awaited'; 
+
+Picture 
+
+select * from student1 where subject='c++' and marks=75; 
+
+ 
+
+Select * from population where qualification= ‘BCom’ and occupation= ‘student’ and age= ‘26’; 
+
+ 
+
+Select * from marks where telugu=67 and english=96; 
+
+ 
+
+select * from Population where gender="female" and age=28; 
+
+ 
+
+select * from employee3 where emp_name="kelly" and gender="female"; 
+
+ 
+
+select * from employee3 where emp_name="david" and emp_birth_day=28; 
+
+ 
+
+ 
+
+OR: displays a record if, any of the conditions separated by OR is true. 
+
+SYNTAX: select col1, col2 from the table where condition1 OR condition2 OR condition3; 
+
+ 
+
+EXAMPLES: 
+
+select * from employee3 where emp_birth_day>=20 or gender="female"; 
+
+Picture 
+
+select * from result where course='bcom' or Result='Awaited'; 
+
+Picture 
+
+select * from student1 where subject='c++' or marks=75; 
+
+ 
+
+Select * from population where qualification="BCom" or occupation="engineer" or age="26"; 
+
+ 
+
+ Select * from marks where telugu=78 or english=96; 
+
+ 
+
+select * from Population where gender="female" or age=28; 
+
+ 
+
+select * from employee3 where emp_name="david" or emp_birth_day=28; 
+
+ 
+
+select * from employee3 where emp_name="kelly" or gender="female"; 
+
+ 
+
+ 
+
+NOT: displays a record if, the condition is NOT true. 
+
+SYNTAX: Select col1, col2 from table name where NOT condition; 
+
+ 
+
+EXAMPLES: 
+
+select * from employee3 where not gender="male"; 
+
+Picture 
+
+select * from result where not course="bcom"; 
+
+Picture 
+
+select * from student1 where not marks=95; 
+
+ 
+
+Select * from population where not gender="male"; 
+
+ 
+
+Select * from marks where not hindi=87; 
+
+ 
+
+select * from Population where not occupation="student"; 
+
+ 
+
+select * from employee3 where not gender="female"; 
+
+ 
+
+select * from employee3 where not gender="male"; 
+
+ 
+
+ 
+
+DDL: DATA DEFINITION LANGUAGE: 
+
+CREATE:  Create database or its objects like tables, views, index, functions and triggers. 
+
+SYNTAX:  
+
+Create a table table_name (col1 datatype, col2 datatype, ...... coln datatype); 
+
+ 
+
+Example: create table employee2(s_no int(5), name varchar(10), age varchar(20), salary varchar(20)); 
+
+select * from employee2; 
+
+Picture, Picture, Picture 
+ 
+
+DROP:  Delete the data from the table. 
+
+ SYNTAX: drop table table_name; 
+
+EXAMPLE:  
+
+mysql> drop table employees; 
+
+Query OK, 0 rows affected (0.02 sec) 
+
+  
+
+ 
+
+ALTER:  Alters the structure of the database. 
+
+SYNTAX: Alter table table_ name add column column_name data type; 
+
+Example: 
+
+Alter table employee2 add column working_In varchar(15); 
+
+ 
+
+ 
+
+TRUNCATE:  Removes all the records from the table. 
+
+SYNTAX: truncate table table_name; 
+
+ 
+
+EXAMPLE:  
+
+ 	truncate table employees; 
+
+Query OK, 0 rows affected (0.04 sec) 
+
+  
+
+COMMENT: Adds comments to the data dictionary; 
+
+SYNTAX: comment ‘comment_taxt’ on table table_name; 
+
+EXAMPLE: 
+
+ 
+
+RENAME:  Renames the exisdting table. 
+
+SYNTAX: 
+
+EXAMPLE: 
+
+rename table employee2 to employees; Query OK, 0 rows affected (0.02 sec) 
+
+ 
+
+DML: DATA MANIPULATION LANGUAGE: 
+
+INSERT:  Inserts data into a table. 
+
+SYNTAX: Insert into table_ name (col1, col2, col3, .... col n) 
+
+        values (val1, val2, val3, ..... val n); 
+
+EXAMPLE: 
+
+ insert into employee2 values('01','Hamza','30','30,000INR'),('02','Anil','29','25,000 INR'),('03','Adnan','27','30,000 INR'),('04','Saniya','32','28,000 INR'),('05','Arham','30','32,000 INR'); 
+
+ 
+
+UPDATE: updates the existing data in the table.  
+
+SYNTAX: update table name set col1=val1, col2=val2, where condition; 
+
+EXAMPLE: 
+
+ update employees set working_In="Cabptoid" where s_no=3; 
+
+ 
+
+DELETE: deletes the records from the table. 
+
+SYNTAX: delete from table name where condition; 
+
+EXAMPLE:  
+
+ 
+
+mysql>  
+
+delete from result2 where course="BSc"; 
+
+	 
+
+ORDER BY  
+
+Used to sort the data in any of the form:  Ascending/ descending order. 
+
+If we want to sort the data in ascending order, then we use the keyword ASC. 
+
+If we want to sort the data in descending order, then we use the keyword DESC. 
+
+SYNTAX: Select col1, col2, from table name order by col1, col2 ASC; 
+
+EXAMPLE: 
+
+ select name, age from employees order by name, age ASC; 
+
+ 
+
+ 
+
+select name, age from employees order by age DESC; 
+
+ 
+
+ 
+
+NULL VALUES:  
+
+This is a field in a table which is completely provided for optional. 
+
+How to test for NULL value? 
+
+ISNULL OR IS NOT NULL: 
+
+ISNULL:  
+
+SYNTAX:Select col_names from table_name where col_name IS NULL. 
+
+EXAMPLE: 
+
+ 
+
+ 
+
+select name from employees where working_In is NULL; 
+
+ 
+
+ 
+
+ 
+
+IS NOT NULL:  
+
+SYNTAX:  
+
+Select column_names from table_name where column_name IS NOT NULL; 
+
+EXAMPLE:  
+
+ 
+
+select name from employees where working_In is NOT NULL; 
+
+  
+
+ 
+
+select * from employees where working_In is NOT NULL; 
+
+ 
+
+ 
+
+LIMIT CLAUSE: 
+
+ Mainly used to specify the number of records to return. 
+
+Limiting the number of records. 
+
+SYNTAX:  Col1 from table name where condition; 
+
+EXAMPLE: Select name from population where age between 15 and 30 limit 10. 
+
+ 
+
+select emp_name,age from employee6 where age between 35 and 40 limit 2 
+
+Picture 
+
+select emp_name,age from employee6 where age between 35 and 40 limit 4; 
+
+Picture 
+
+MINIMMUM FUNCTION: 
+
+This is the function returns the smallest value of selected column. 
+
+SYNTAX: Select min (column name)from table_name where condition 
+
+EXAMPLE: Select min(age) from population 
+
+Select min(age) as smallest price from population 
+
+select min(age) from employee6; 
+
+Picture 
+
+select min(salary) from employee6; 
+
+Picture 
+
+MAXIMUM FUNCTION:  
+
+This is the function returns the largest value of selected column. 
+
+SYNTAX:  Select max(age) from population 
+
+ 
+
+select max(age) from employee6; 
+
+Picture 
+
+select max(salary) from employee6; 
+
+Picture 
+
+   COUNT ():  
+
+Return the Number of rows that matches a specified condition. 
+
+SYNTAX: Select count (column name) from table name where condition. 
+
+EXAMPLE: Select count (name) from population where age>30; 
+
+ 
+
+select count(emp_name) from employee6 where age>30; 
+
+ 
+
+Picture 
+
+select count(emp_name) from employee6 where age<36; 
+
+Picture 
+
+select count(emp_name) from employee6 where salary>80000; 
+
+Picture 
+
+ 
+
+select count(emp_name) from employee6 where salary<80000; 
+
+Picture 
+
+select count(emp_name) from employee6 where salary>=75000; 
+
+Picture 
+
+select count(emp_name) from employee6 where age<40; 
+
+Picture 
+
+ 
+
+AVERAGE (): 
+
+It will return the average value of the column. 
+
+SYNTAX: Select avg (col name) from table_name where condition; 
+
+EXAMPLE: Select avg age from population. 
+
+select avg(salary) from employee6; 
+
+Picture 
+
+ 
+
+select avg(age) from employee6; 
+
+Picture 
+
+ 
+
+SUM ():  
+
+Return the total sum of a numeric column. 
+
+SYNTAX: select sum (col name) from table_name where condition. 
+
+select sum (age) from population where condition. 
+
+Select sum (emp salary) from emp where emp id =101 and 102. 
+
+select sum(age) from employee6; 
+
+Picture 
+
+select sum(salary) from employee6; 
+
+Picture 
+
+select sum(salary) from employee6 where salary>75000; 
+
+Picture 
+
+select sum(salary) from employee6 where salary<80000; 
+
+Picture 
+
+select sum(age) from employee6 where age<38; 
+
+Picture 
+
+select sum(salary) from employee6 where emp_id=101 and 102; 
+
+Picture 
+
+select sum(salary) from employee6 where emp_id=103 and 105; 
+
+Picture 
+
+ LIKE ():  
+
+This is the operator which is used in where clause to search for a specific pattern in a column  
+
+ 
+
+WILD CARDS (): 
+
+% - represents 0 or 1 or multiple characters. 
+
+SYNTAX: Select emp_name, emp_id from emp. 
+
+Select * from emp where emp name like a%. 
+
+Select * from emp where emp name like %a%. 
+
+Select * from emp where emp name like %a. 
+
+Select * from emp where emp name like s%a. 
+
+Select * from emp where emp name like s%r. 
+
+_ - One single characters only. 
+
+ 
+
+select * from employee6 where emp_name like 'a%'; 
+
+ 
+
+Picture 
+
+select * from employee6 where emp_name like '%a'; 
+
+Picture 
+
+select * from employee6 where emp_name like 'z%'; 
+
+Picture 
+
+select * from employee6 where emp_name like 't%'; 
+
+Picture 
+
+select * from employee6 where emp_name like '%n'; 
+
+Picture 
+
+select * from employee6 where emp_name like '%a%'; 
+
+Picture 
+
+ 
+
+ 
+
+IN ():  
+
+Allows us to specify multiple values in a where clause. 
+
+ SYNTAX: Select col1 from table_name where col1 in (val1, val2, ...); 
+
+ 
+
+ 
+
+JOINS ():  
+
+Is consider as clause.  
+
+Mainly used to combine rows from two tables. 
+
+ 
+
+TYPES OF JOINS:  
+
+INNER JOIN: Select the records that match in two table. 
+
+SYNTAX: Select col name from table name inner join table2 on table1. Col name= table2. Col name; 
+
+ 
+
+select Name from table1 inner join table2 on table1.id=table2.id; 
+
+Picture 
+
+ 
+
+ 
+
+LEFT JOIN: Is mainly used to return all the records from left table and only the matched records from the right table. 
+
+SYNTAX: Select col name from table name left join table2 on table1. Col name= table2. Col name 
+
+ 
+
+Select name from table1 left join table2 on table1.age= table2.address; 
+
+ 
+
+Picture 
+
+Select name from table1 left join table2 on table1.name= table2.address; 
+
+Picture 
+
+Select * from table1 left join table2 on table1.name= table2.address; 
+
+ 
+
+Picture 
+
+Select * from table2 left join table1 on table1.name= table2.address; 
+
+ 
+
+Picture 
+
+ 
+
+RIGHT JOIN: Is mainly used to return all the records from right table and only the matched records from the left table. 
+
+SYNTAX: Select col name from table name right join table2 on table1. Col name= table2. Col name 
+
+Select * from table1 right join table2 on table1.name= table2.id; 
+
+ 
+
+Picture 
+
+Select * from table2 right join table1 on table1.age= table2.address; 
+
+Picture 
+
+CROSS JOIN: Returns all the records from the two tables. 
+
+SYNTAX: Select col. Name from table name cross join table2. 
+
+ 
+
+Select * from table1 cross join table2; 
+
+ 
+
+ 
+
+ 
+
+SELF JOIN: Return the table to table1; 
+
+SYNTAX: Select col. Name from table1 T1, table2 T2 where condition. 
+
+Select * from table1 T1, table2 T2 where age>40; 
+
+ 
+
+Picture 
+
+ 
+
+ 
+
+ 
+
+ UNION OPERATOR:  
+
+Combine the result set of two or more select statements. 
+
+SYNTAX: Select col name from table1 union select col name from table2; 
+
+Select name from table1 union select address from table2; 
+
+Picture 
+
+Select age from table1 union select phone from table2; 
+
+Picture 
+
+Select id from table1 union select id from table2; 
+
+Picture 
+
+GROUP BY:  
+
+This group by is used with aggregate functions like count (), sum (), avg (), min (), max (). 
+
+SYNTAX: Select col name from table name where condition group by col name order by col name. 
+
+select department, count(*) from employee6 group by department; 
+
+Picture 
+
+select emp_name, count(*) from employee6 group by emp_name; 
+
+Picture 
+
+select age, avg(age) from employee6 group by age; 
+
+Picture 
+
+select salary, avg(salary) from employee6 group by salary; 
+
+Picture 
+
+select salary, count(salary) from employee6 group by salary; 
+
+Picture 
+
+select age, count(*) from employee6 group by age; 
+
+Picture 
+
+ 
+
+HAVING CLAUSE:  
+
+Was added to SQL because where keyword cannot be used with the aggregate functions. 
+
+SYNTAX: select col name from table name where condition group by col name having condition order by col name; 
+
+ 
+
+ 
+
+EXISTS OPERATOR:  
+
+Used to test for the existence of any record. 
+
+SYNTAX: Select col name from table name where exists. 
+
+SYNTAX: Select col name from table name where exists. 
+
+SYNTAX: Select col name from table name where condition. 
+
+ 
+
+ANY OPERATOR:  
+
+Return a Boolean value as a result. 
+
+COMPARISION OPERATOR:  
+
+SYNTAX: select col name from table name were col name operator any (select col name from table name where condition). 
+
+ALL OPERATOR:  
+
+Return the Boolean value as a result. 
+
+This is used with select, where and having statement. 
+
+SYNTAX: Select all col name from table name where condition. 
+
+PRIMARY KEY:  
+
+Primary key is used to uniquely identifying the records in a table.  
+
+Primary key must contain unique values and cannot contain null values. 
+
+A table can have only one primary key. 
+
+Primary key can consist of single or multiple columns (fields). 
+
+SYNTAX: create table persons (ID int not null, Last_name varchar (20) not null, first_name varchar (10), age int, primary_key ID));  
+
+PRIMARY KEY ON ALTER TABLE  
+
+SYNTAX: Alter table persons add primary key (ID)); 
+
+DROP A PRIMARY KEY:  
+
+SYNTAX: Alter table persons drop primary key; 
+
+FOREIGN KEY: 
+
+Foreign key used to prevent actions that would destroy the links between tables. 
+
+Is a field (columns) in one table that refers to the primary key; 
+
+Foreign key on creating a table; 
