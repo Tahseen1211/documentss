@@ -1,0 +1,2407 @@
+TESTING 
+
+1)Testing:  
+
+Manual & Automation (selenium) 
+
+ 
+
+2)Cloud & cloud Computing 
+
+3)AWS 
+
+4)Python programming 
+
+5)Mysql 
+
+6)Linux 
+
+7)Git & GitHub 
+
+8)Maven 
+
+9)Dockers 
+
+10)Tomcat 
+
+11)Jenkins 
+
+12)Automation Project 
+
+ 
+
+Unit testing:  
+
+                 Unit testing focuses Verification effort on to smallest unit of software design.The software component or module using the component level design description as a guide, important control parts are tested to uncover errors within the boundary of the module. 
+
+Testing :- 
+
+                 Is the process of checking whether the developed application is working properly as per the requirement of client on not. 
+
+Objectives of testing: 
+
+1. Ensuring the quality of the Product. 
+
+2. Ensuring the Correctness of project.   
+
+3. Ensuring the Robusstnes.  
+
+4. Ensuring the reliability.  
+
+5. Ensuring the before Product is bug free before shipment/release. 
+
+ 
+
+Error: Any incorrect human action that produces issues in the system. 
+
+Bug: Deviation of result from expected behaviour to the actual behaviour of the system. 
+
+Defect :- Complete deviation from the actual behaviour. 
+
+Failure :- The deviation identify by the end users while using the system is a failure. 
+
+ 
+
+Why testing is done: 
+
+•Testing is done to assure quality. 
+
+•Quality is defines as the justification of all the requirements of a customer in an application. 
+
+•If we fulfill all the requirements of the client then we can get a quality product. 
+
+ 
+
+Software : It is defined as an organized set of instructions to deliver a desired output by considering various process and functions. 
+
+ 
+
+What is software testing? 
+
+Software testing: 
+
+                software testing is an important process in SDLC. It involves verifying and validating that a software application is buy free. 
+
+Software is the part of software development process. 
+
+•Software testing is an activity to detect and identify the defects in the software. 
+
+•The main objective of software testing is to release quality software or product to the client. 
+
+ 
+
+Need for software testing: 
+
+ In order to deliver the quality software product then we need this software testing .  
+
+To satisfy the used requirement.  
+
+To make the software reliable.  
+
+Reduce the maintenance cost.. 
+
+We can avoid customer dissatisfaction. 
+
+ 
+
+Benefits of software testing: 
+
+Product Quality.  
+
+Customer satisfaction. 
+
+Cost effective. 
+
+Security. 
+
+ 
+
+Quality software is mainly responsible for: 
+
+1. Bug Free,  
+
+2. Delivered on time, 
+
+3. Within the budget, 
+
+4. It should meet the requirements of the clients, 
+
+5. Maintainable. 
+
+ 
+
+PRODUCT AND PROJECT: 
+
+Product: If the software is developed based on the application of multiple customer. 
+
+Project: If the software is developed based on the requirements of specific customer than it is known as a project. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Types of Testing: 
+
+There are 2 types of testing 
+
+1) Manual testing. 
+
+2) Automation testing. 
+
+ 
+
+1) Manual testing:  
+
+                             Human will perform the test step by step without test script by test cases. 
+
+2) Automation Testing:  
+
+                             Tests are executed automatically via test automation frameworks that’s along with the software. 
+
+Types of manual testing: 
+
+Unit testing, 
+
+Integration testing, 
+
+Black box testing, 
+
+White box testing,  
+
+System testing,  
+
+Acceptance Testing. 
+
+ 
+
+SDLC (Software development Life cycle):  
+
+                       Software development Life cycle is the whole step by step process of the software. 
+
+There are 5 steps in SDLC: 
+
+Requirement analysis,  
+
+Design analysis,  
+
+Development analysis,  
+
+Testing analysis,  
+
+Maintenance analysis. 
+
+ 
+
+How a bug solves problem? 
+
+ 
+
+Understanding the problem, 
+
+ Who are the stake holders, 
+
+What features are required,  
+
+Can problems be represented graphically. 
+
+ 
+
+Plan the solution,  
+
+ How you seen similar problem before, 
+
+Can Sub problems be defined,  
+
+Can design model be created 
+
+Carry out the plan, 
+
+ Is each component part of solution is probably correct. 
+
+Is source code traceable to design model. 
+
+Exausive the result.  
+
+Is a testing strategy applied. 
+
+ 
+
+                             SOFTWARE DEVELOPMENT 
+
+              In order to develop the software we have few methodologist: 
+
+ 
+
+Water fall model, 
+
+Agile model,  
+
+Spiral model,  
+
+V-model,  
+
+Increment model. 
+
+ 
+
+Waterfall model: 
+
+ It is a sequentially executed software develpmental model.  
+
+Was introduced by WINSTON ROYEE in the year 1970.  
+
+This model is also known as traditional model.  
+
+ Also known as ''linear sequential development model''.  
+
+Waterfall model was first SDLC model used widely in IT industry.  
+
+ 
+
+            Picture 248241400, Picture 
+
+ 
+
+ 
+
+ 
+
+STEPS INVOLVED IN WATERFALL MODEL:  
+
+Requirement Analysis,  
+
+Designing / system design,  
+
+Coding / implementation,  
+
+Testing , 
+
+Operational / deployment,  
+
+Maintenance.  
+
+  
+
+1. Requirement Analysis/ Gathering:  
+
+Project Manager / Business analyst will sit together with the client and discuss about their requirement  
+
+SRS: It is software requirement specification.  
+
+  
+
+2. System Design:  
+
+       --> System designing will be done by system architects.  
+
+       --> UI & UX developers will do system designing.  
+
+  
+
+         System design consist of 2 types:  
+
+                                  1. High Level  
+
+                                  2. Low Level  
+
+  
+
+           --> Based on the SRS document, designers will prepare design document.  
+
+ 
+
+ 3. Coding: 
+
+            --> Coding will be done by developers (who will write the code).  
+
+            --> Developers will develop the code as per the design document.  
+
+  
+
+  
+
+4. IMPLEMENTATION: ( execution / running the application )  
+
+               --> Totally based on the design document coding will start & after completion implementation will start.  
+
+5. Testing: Testing is done by testers. Testers will generate a report.  
+
+  
+
+   è Unit testing: A single piece of software is being tested.  
+
+   è Integration :All the 10 modules will execute sequently.  
+
+   è Software: Whole software is goimg to be tested.  
+
+   è System: Depends on the responding of the system.  
+
+ 5. Operational/ Deployment: (Devops Engineer )  
+
+Copying of the source code (final code) on to the server is known as deployment.  
+
+  
+
+6. Maintenance: (Devops Engineer) – Feedback. 
+
+ADVANTAGES AND DISADVANTAGES OF WATERFALL MODEL: 
+
+  
+
+ADVANTAGES OF WATERFALL MODEL: 
+
+ 
+
+DISADVANTGES OF WATERFALL MODEL: 
+
+ 
+
+1. This model is simple and easy to understand and use.  
+
+2. Quality of the product will be good.  
+
+3. In this model phases are processed and completed once at a time. Phases do not overlap.  
+
+4. Waterfall model works well for smaller projects where requirements are very well understood.  
+
+ 
+
+ 
+
+1. It is difficult for the customer to state all requirements explicity. Waterfall modelrequires this and has natural uncertainity at the beginning of many projects.  
+
+2. Once an application is in testing stage it is very difficult to go back and change something that was not well, throughout in the concept stage. 
+
+ 
+
+   
+
+ 2. AGILE METHODOLOGY:  
+
+Agile means ability to respond to the changes from requirements, technology and people.  
+
+It is difficult to predict in advance which software requirements, customer priorities will change and which will persist.  
+
+For many types of software, design and construction and interleaved (performed together). It is difficult to predict how much design is necessary before construction is used.  
+
+Analysis, design, construction and testing are not as predictable as we might like.  
+
+è It is an incremental Model and iterative process of software development.  
+
+è We will deliver the piece of software with only few functionalities to deliver.  
+
+.  
+
+3 MAIN PRINCIPLES THAT AGILE FOLLOW:  
+
+1. Customer no need to wait until the whole software is developed.  
+
+2. Delivering the piece of software with the few functionalities.  
+
+3. We can adopt/ accommodate / accept the requirement changes from the client.  
+
+  
+
+Planning  
+
+Design  
+
+Development  
+
+Testing  
+
+Devop  
+
+Review  
+
+ 
+
+ ADVANTAGES AND DISADVANTAGES OF AGILE METHODOLGY: 
+
+ 
+
+                       ADVANTAGES 
+
+                  DISDVANTAGES 
+
+1. There are many different model and rotations that can be used to describe software.  
+
+2. Focus on customer value.  
+
+3. Enhanced team moral and motivation.4. Skate holder collaboration.  
+
+4.  Delivering high quality software. 
+
+ 
+
+1. Extensive time commitment from each one involved.  
+
+2. Qualifying the real scope may be a challenge.  
+
+3. Endless or the boundless work.  
+
+4. Potential gap in the document.  
+
+5. Resource allocation can be a challenge. 
+
+ 
+
+ 
+
+ 
+
+Difference between waterfall model and Agile methodology:  
+
+The waterfall model is a linear, sequential project management approach, While Agile is an iterative and flexible methodology that embraces continuous feedback and adaptation.  
+
+  
+
+          WATERFALL MODEL 
+
+           AGILE METHODOLOGY 
+
+Linear, sequential 
+
+Distinct, completed in order 
+
+Difficult and costly 
+
+Thorough upfront 
+
+Structured ,documentation 
+
+Stable requirements. 
+
+Iterative, flexible 
+
+Smaller increments, with feedback loop 
+
+Easy and encouraged 
+
+Continuous evolving 
+
+Collaboration, adaptability 
+
+Evolving requirements. 
+
+ 
+
+3. SPIRAL MODEL:  
+
+ è Spiral model is iterative model.  
+
+è Overcome few drawbacks of waterfall model.  
+
+è Preferred whenever there are fewer modules to develop.  
+
+è We follow spiral model whenever there is dependency on the modules.  
+
+è For each cycle a new software will be release to customer.  
+
+è Software will be release in the form of versions.  
+
+è Also be known as version control model.  
+
+è In every cycle we follow SDLC method.  
+
+è Requirements and changes can be accepted in each cycle.  
+
+ 
+
+ 
+
+ Picture 243945631, Picture 
+
+ 
+
+STEPS INVOLVED IN THE SPIRAL MODEL :  
+
+ 
+
+1. PLANNING: Requirement Analysis.  
+
+2. RISK ANALYSIS:  
+
+                       How many developers, how many testers we need and the deadline, budget, and how many days we need.  
+
+        Plan the risk to develop or generate.  
+
+        Prototype : blue print of the software. 
+
+  
+
+  
+
+3. DEVELOPMENT AND TESTING:  
+
+          Involves complete engineering and execution.  
+
+          Designing, development (code), testing responds.  
+
+  
+
+4. Evaluation:  
+
+  
+
+    --> Customer evaluation.  
+
+    --> Also known as 1 type of testing.  
+
+ 
+
+ ADVANTAGES AND DISADVANTAGES OF SPIRAL MODEL: 
+
+ 
+
+              ADVANTAGES 
+
+                     DISADVANTAGES 
+
+1. Testing is done in every cycle.  
+
+2. Customer will get use the software for each and every module.  
+
+3. Requirement changes are allowed after every cycle.  
+
+4. Continuous risk analysis. 
+
+1. Requirement changes are not allowed in between the cycle.  
+
+2. Every cycle of spiral model looks like waterfall model.  
+
+3. No testing in requirement phase and testing phase. 
+
+  
+
+  
+
+V- MODEL:  
+
+          V model is also known as V – V model.  
+
+è V-V Stands for verification and validation.  
+
+è Procedure will be in the shape of V  
+
+  
+
+V - Verification we have few steps:  
+
+1. Requirement Gathering.  
+
+2. System analysis.  
+
+3. Software design.  
+
+4. Module design.  
+
+5. Coding.  
+
+  
+
+V – Validation:  
+
+1. Testing module: Each module is tested separately.  
+
+2. Integration: All 10 modules will execute sequentially.  
+
+3. System: whole system will be tested.  
+
+4. User Acceptance: software tested, whether if it is performing as per the requirement or not.  
+
+è This both verification and validation will go in parallel way.  
+
+è Parallel execution.  
+
+è At each and every stage, test plans and test cases are created to verify and validate the product or project according to the requirement stages.  
+
+  
+
+INCREMENTAL MODEL:  
+
+Picture 2108629211, Picture 
+
+Incremental model combines elements of the waterfall model applied is as iterative.  
+
+Incremental model is particularly useful when staffing is unavailable for a complete implementation by the business deadline that has been established for the project.  
+
+Early increments can be implemented with the fewer people.  
+
+In addition, increments can be planned to manage technical risks.  
+
+è Same as Agile methodology.  
+
+è Requirements are divided into many modules.  
+
+è Each module will undergo through all the steps in the SDLC.  
+
+è Chosen for lengthy projects (long term projects).  
+
+è When requirement are superiors.  
+
+ 
+
+ 
+
+ 
+
+         AWS: CLOUD 
+
+Space required to process the data and uses it for application. 
+
+Creating the huge space with all the services to use or to rest. 
+
+ 
+
+CLOUD COMPUTING: 
+
+It is an ability to store your data (or) place where it can be store our data. 
+
+Processing the data & access the applications via internal services. 
+
+TYPES OF CLOUD COMPUTING: 
+
+SERVICE MODE. 
+
+DEPLOYMENT MODE. 
+
+ 
+
+DATA 
+
+APPLICATIONS 
+
+RUN-TIME 
+
+MIDDLE WARE 
+
+OPERATING SYSTEM 
+
+VITUALIZATION 
+
+SERVER 
+
+STORAGE 
+
+NETWRKING 
+
+ 
+
+SERVICE MODE: 
+
+SaaS – software as a service. 
+
+PaaS– platform as a service. 
+
+IaaS– infra structure as a service. 
+
+ 
+
+SaaS – software as a service: 
+
+--> It provides a full application stack as a server that customer can access it and make use of it. 
+
+--> Applications that are run in thus cloud are known as software as a service. 
+
+--> Example: Food delivery application. 
+
+--> Application are designed for the end users. 
+
+--> Applications are delivered to them only in online. 
+
+--> Cloud providers leases the application or software. 
+
+--> apart from all this things only data is managed by ourselves. 
+
+--> Remaining all the above are maintenance by vendors. (any type of cloud services).  
+
+ 
+
+PaaS – Platform as a Service:  
+
+--> No control over the underline arcitechture. ( Storage, operating system, server). 
+
+--> Example: Google search engine. 
+
+--> While using PaaS we can create our own application and keep it on google engine. 
+
+--> Only data and applications are managed by ourselves. 
+
+--> Remaining RUN-TIME, MIDDLE-WARE, OPERATING SYSTEM, VITUALIZATION, SERVER, STORAGE, NETWORKING are managed by vendors. 
+
+IaaS – Infra structure as a Service: 
+
+-->  
+
+ 
+
+ 
+
+ 
+
+DEPLOYMENT MODE: 
+
+Public cloud. 
+
+Private cloud. 
+
+Hybrid cloud. 
+
+Community cloud. 
+
+Top 10 cloud providers: 
+
+AWS ( Amazon Web services ) -36% 
+
+Azure – 27% 
+
+GCP ( Google cloud Platform) – 15% 
+
+Alibaba – 10% 
+
+IBM – 7% 
+
+Salesforce -11% 
+
+Oracle - 3% 
+
+Tencent 
+
+Digital ocean  
+
+Linode  
+
+  
+
+  
+
+Comparision of AWS, AZURE AND GCP: 
+
+AWS,  Azure, and GCP are the leading cloud platforms, each with strengths in different areas. 
+
+AWS boast a vast ecosystem and global reach. 
+
+Azure excels in integration nad security. 
+
+GCP shines in data management and machine learning. 
+
+ 
+
+ 
+
+ 
+
+                AWS 
+
+             AZURE 
+
+            GCP 
+
+LAUNCHING YEAR 
+
+2004 
+
+2010 
+
+2008 
+
+AVAILABILITY 
+
+84 availability zone 
+
+60+ region 
+
+74 TOTAL ZONES 
+
+SERVICES 
+
+212+ services 
+
+200+ services 
+
+100+ services 
+
+CLOUD SHARE 
+
+33% of the market 
+
+21% of the market 
+
+8% of the market 
+
+COMPUTE ENGINE 
+
+Elastic compute system 
+
+Virtual machine 
+
+Compute engine 
+
+NETWORKING 
+
+Virtual private cloud 
+
+Virtual network 
+
+Cloud virtual network 
+
+PRICING 
+
+Based on charge per hour 
+
+Based on charge per minute 
+
+Based on charge per m 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+               DEVOPS 
+
+Devops: 
+
+1. combination of developers team and operatinal team. 
+
+                                                (or) 
+
+      Devop is a culture which varies from organization to organization. 
+
+                                                (or) 
+
+     Development team and operational team working in collaboration. 
+
+       
+
+               It is a continuous or never-ending process. 
+
+Devops is the process of delivering by ensuring automation in place, ensuring the quality with continuous integration and testing and continuous deployment. 
+
+ Developer (multiple developers) they will work together the work that client as assigned. 
+
+ 
+
+Devops: 
+
+Approach makes company adapt faster up to dates in development changes. 
+
+The teams can deliver quickly. 
+
+And the deployments work more consistence and smooth. 
+
+There may be a communication challenges devops manage extreme line flow between the teams and makes the software development process as successful. 
+
+The devops culture is implemented in several phases with the help of several tools. 
+
+ 
+
+1. system admin: maintain the server (if any issue immediately notice to developer). 
+
+2. build and release state : they will build(package) the application first and deploy (copying the application) it to the server (server web) 
+
+3. server admin: check whether it need to select web application or data application. 
+
+  
+
+ Before devops there is no communication between the developer's team (develop as well as the operational team 
+
+ Why devops? 
+
+To deliver the software, product, project on time with good quality. 
+
+ To reduce the time (time taken to deliver the application to the client /end users). 
+
+  
+
+Developers team planning, code, build, test. 
+
+ Operational team will deploy the application to the monitor for monitoring 
+
+  
+
+why Linux? 
+
+Linux is an open-source operating system 
+
+This has very high-performance rating 
+
+Because it is very secure. 
+
+in order to maintain the security. 
+
+  
+
+Devops tools:  
+
+1. planning/ code/scm: git, jira. 
+
+2. Build -Apache Maven. graddle, apache ANT 
+
+3. Testing - selenium testing with python 
+
+4. Interation - jenkins(CI/CD) 
+
+5. Deployment -docker, kubernetes- containerisation tools 
+
+6. Operational - Ansible  -- managing the application. 
+
+7. Monitoring - teraform 
+
+  
+
+ 
+
+PYTHON:  
+
+It is a popular programming language. It was created by Guido van Rossum, in the year 1991. 
+
+Web development (server side). 
+
+software development, 
+
+system scripting. 
+
+  
+
+What python can do? 
+
+ Python can be used on a server for creating the web application. 
+
+Used to create the workflow of software development. 
+
+Python can handle big data and complex mathematical operations. 
+
+  
+
+why we choose python? 
+
+It works on different platform like windows, Linux, mac, Rasbery, etc. 
+
+Python has a very simple syntax even beginners can easily understand. 
+
+Allows developers to write the program in few lines. 
+
+  
+
+JAVA: 
+
+program to print hello world. 
+
+class example {. 
+
+public static void main (string args[]) { 
+
+system. out. print] n ("Hello World"); 
+
+} 
+
+} 
+
+PYTHON: 
+
+program to print bhello world 
+
+print("Hello World!”) 
+
+ 
+
+Python comments: comment lines. 
+
+--> Comments are used to explain the code that you have written. 
+
+--> Comments can be used to prevent execution when testing. 
+
+ 
+
+ 
+
+ 
+
+creating a comment: 
+
+#hi hello 
+
+#Do u have any idea 
+
+#Suggest something! 
+
+Variables: 
+
+Used to assign some values or content. 
+
+Ex:  a =10 
+
+        b =100 
+
+         c = a +b 
+
+ 
+
+name = "Tahsin"# This is a sample Python script. 
+print("Name:",name) 
+age = 24 
+print("Age:",age) 
+height = 5.2 
+print("Height:",height) 
+is_student = True 
+print("is_student:",is_student) 
+
+ 
+
+Name: Tahsin 
+
+Age: 24 
+
+Height: 5.2 
+
+is_student: True 
+
+ 
+
+ 
+
+Data types: 
+
+  Type of data including in our code. 
+
+Example: 10 - integer unit 
+
+                      ABC – String – str 
+
+                      10.50 - float 
+
+                       a+ib = complex  
+
+                       010110 – byte. 
+
+ 
+
+     Explain about variables?  
+
+In python a variable is a named storage location that holds data values, allowing you to store and manipulate information within your code. You create a variable by assigning a value to it using the assignment operator (=). 
+
+Variable names: 
+
+      Variables name can contain letters, numbers and underscores, but they must start with a letter or underscore. 
+
+List the data types:  
+
+Pythons built in data types can be broadly categorized into: Numeric (integers, floats, complex), Sequence (strings, lists, tubules) Set mapping (Dictionaries), Boolean, and none. 
+
+Integers: whole numbers (e.g., age = 25) 
+
+Floats: Numbers with decimal point (e.g., price = 19.99) 
+
+Strings: Text enclosed in quotes (e.g., name = “Python” or message = ‘hello world’!) 
+
+Booleans: true or false values (e.g., is active = True) 
+
+Lists: ordered collections of items (e.g., numbers = 1,2,3) 
+
+Dictionaries: Key-value pairs (e.g., person = {“name”: “Alice”, “age”: 25})  
+
+     010110 – byte 
+
+ 
+
+ 
+
+ 
+
+name="abc" 
+print("name:", name) 
+print("type of name:",type(name)) 
+ 
+age=23 
+print("age:", age) 
+print("type of age:", type(age)) 
+ 
+height=5.8 
+print("height:", height) 
+print("type of a height:",type(height)) 
+ 
+is_student=True 
+print("is_student:", is_student) 
+print("type of is_student:", type(is_student)) 
+ 
+unique_numbers={1,2,3,4} 
+print("unique_numbers:", unique_numbers) 
+print("type of a unique_numbers:", type(unique_numbers)) 
+ 
+fruits=("apple","orange","kivi") 
+print("fruits:", fruits) 
+print("type of a fruits:", type(fruits)) 
+ 
+flowers=("rose","tulip","lily") 
+print("flowers:", flowers) 
+print("type of a flowers:", type(flowers)) 
+ 
+
+ name: abc  type of name: <class 'str'>  
+
+age: 23 type of age: <class 'int'>  
+
+height: 5.8 type of a height: <class 'float'> 
+
+ is_student: True type of is_student: <class 'bool'> 
+
+ unique_numbers: {1, 2, 3, 4} type of a unique_numbers: <class 'set'>  
+
+fruits: ('apple', 'orange', 'kivi') type of a fruits: <class 'tuple'>  
+
+flowers: ('rose', 'tulip', 'lily') type of a flowers: <class 'tuple'> 
+
+Process finished with exit code 0 
+
+ 
+
+Advantages and applications of python programming over other programming language? 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ TESTING 
+
+1)Testing:  
+
+Manual & Automation (selenium) 
+
+ 
+
+2)Cloud & cloud Computing 
+
+3)AWS 
+
+4)Python programming 
+
+5)Mysql 
+
+6)Linux 
+
+7)Git & GitHub 
+
+8)Maven 
+
+9)Dockers 
+
+10)Tomcat 
+
+11)Jenkins 
+
+12)Automation Project 
+
+ 
+
+Unit testing:  
+
+                 Unit testing focuses Verification effort on to smallest unit of software design.The software component or module using the component level design description as a guide, important control parts are tested to uncover errors within the boundary of the module. 
+
+Testing :- 
+
+                 Is the process of checking whether the developed application is working properly as per the requirement of client on not. 
+
+Objectives of testing: 
+
+1. Ensuring the quality of the Product. 
+
+2. Ensuring the Correctness of project.   
+
+3. Ensuring the Robusstnes.  
+
+4. Ensuring the reliability.  
+
+5. Ensuring the before Product is bug free before shipment/release. 
+
+ 
+
+Error: Any incorrect human action that produces issues in the system. 
+
+Bug: Deviation of result from expected behaviour to the actual behaviour of the system. 
+
+Defect :- Complete deviation from the actual behaviour. 
+
+Failure :- The deviation identify by the end users while using the system is a failure. 
+
+ 
+
+Why testing is done: 
+
+•Testing is done to assure quality. 
+
+•Quality is defines as the justification of all the requirements of a customer in an application. 
+
+•If we fulfill all the requirements of the client then we can get a quality product. 
+
+ 
+
+Software : It is defined as an organized set of instructions to deliver a desired output by considering various process and functions. 
+
+ 
+
+What is software testing? 
+
+Software testing: 
+
+                software testing is an important process in SDLC. It involves verifying and validating that a software application is buy free. 
+
+Software is the part of software development process. 
+
+•Software testing is an activity to detect and identify the defects in the software. 
+
+•The main objective of software testing is to release quality software or product to the client. 
+
+ 
+
+Need for software testing: 
+
+ In order to deliver the quality software product then we need this software testing .  
+
+To satisfy the used requirement.  
+
+To make the software reliable.  
+
+Reduce the maintenance cost.. 
+
+We can avoid customer dissatisfaction. 
+
+ 
+
+Benefits of software testing: 
+
+Product Quality.  
+
+Customer satisfaction. 
+
+Cost effective. 
+
+Security. 
+
+ 
+
+Quality software is mainly responsible for: 
+
+1. Bug Free,  
+
+2. Delivered on time, 
+
+3. Within the budget, 
+
+4. It should meet the requirements of the clients, 
+
+5. Maintainable. 
+
+ 
+
+PRODUCT AND PROJECT: 
+
+Product: If the software is developed based on the application of multiple customer. 
+
+Project: If the software is developed based on the requirements of specific customer than it is known as a project. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Types of Testing: 
+
+There are 2 types of testing 
+
+1) Manual testing. 
+
+2) Automation testing. 
+
+ 
+
+1) Manual testing:  
+
+                             Human will perform the test step by step without test script by test cases. 
+
+2) Automation Testing:  
+
+                             Tests are executed automatically via test automation frameworks that’s along with the software. 
+
+Types of manual testing: 
+
+Unit testing, 
+
+Integration testing, 
+
+Black box testing, 
+
+White box testing,  
+
+System testing,  
+
+Acceptance Testing. 
+
+ 
+
+SDLC (Software development Life cycle):  
+
+                       Software development Life cycle is the whole step by step process of the software. 
+
+There are 5 steps in SDLC: 
+
+Requirement analysis,  
+
+Design analysis,  
+
+Development analysis,  
+
+Testing analysis,  
+
+Maintenance analysis. 
+
+ 
+
+How a bug solves problem? 
+
+ 
+
+Understanding the problem, 
+
+ Who are the stake holders, 
+
+What features are required,  
+
+Can problems be represented graphically. 
+
+ 
+
+Plan the solution,  
+
+ How you seen similar problem before, 
+
+Can Sub problems be defined,  
+
+Can design model be created 
+
+Carry out the plan, 
+
+ Is each component part of solution is probably correct. 
+
+Is source code traceable to design model. 
+
+Exausive the result.  
+
+Is a testing strategy applied. 
+
+ 
+
+                             SOFTWARE DEVELOPMENT 
+
+              In order to develop the software we have few methodologist: 
+
+ 
+
+Water fall model, 
+
+Agile model,  
+
+Spiral model,  
+
+V-model,  
+
+Increment model. 
+
+ 
+
+Waterfall model: 
+
+ It is a sequentially executed software develpmental model.  
+
+Was introduced by WINSTON ROYEE in the year 1970.  
+
+This model is also known as traditional model.  
+
+ Also known as ''linear sequential development model''.  
+
+Waterfall model was first SDLC model used widely in IT industry.  
+
+ 
+
+            Picture 248241400, Picture 
+
+ 
+
+ 
+
+ 
+
+STEPS INVOLVED IN WATERFALL MODEL:  
+
+Requirement Analysis,  
+
+Designing / system design,  
+
+Coding / implementation,  
+
+Testing , 
+
+Operational / deployment,  
+
+Maintenance.  
+
+  
+
+1. Requirement Analysis/ Gathering:  
+
+Project Manager / Business analyst will sit together with the client and discuss about their requirement  
+
+SRS: It is software requirement specification.  
+
+  
+
+2. System Design:  
+
+       --> System designing will be done by system architects.  
+
+       --> UI & UX developers will do system designing.  
+
+  
+
+         System design consist of 2 types:  
+
+                                  1. High Level  
+
+                                  2. Low Level  
+
+  
+
+           --> Based on the SRS document, designers will prepare design document.  
+
+ 
+
+ 3. Coding: 
+
+            --> Coding will be done by developers (who will write the code).  
+
+            --> Developers will develop the code as per the design document.  
+
+  
+
+  
+
+4. IMPLEMENTATION: ( execution / running the application )  
+
+               --> Totally based on the design document coding will start & after completion implementation will start.  
+
+5. Testing: Testing is done by testers. Testers will generate a report.  
+
+  
+
+   è Unit testing: A single piece of software is being tested.  
+
+   è Integration :All the 10 modules will execute sequently.  
+
+   è Software: Whole software is goimg to be tested.  
+
+   è System: Depends on the responding of the system.  
+
+ 5. Operational/ Deployment: (Devops Engineer )  
+
+Copying of the source code (final code) on to the server is known as deployment.  
+
+  
+
+6. Maintenance: (Devops Engineer) – Feedback. 
+
+ADVANTAGES AND DISADVANTAGES OF WATERFALL MODEL: 
+
+  
+
+ADVANTAGES OF WATERFALL MODEL: 
+
+ 
+
+DISADVANTGES OF WATERFALL MODEL: 
+
+ 
+
+1. This model is simple and easy to understand and use.  
+
+2. Quality of the product will be good.  
+
+3. In this model phases are processed and completed once at a time. Phases do not overlap.  
+
+4. Waterfall model works well for smaller projects where requirements are very well understood.  
+
+ 
+
+ 
+
+1. It is difficult for the customer to state all requirements explicity. Waterfall modelrequires this and has natural uncertainity at the beginning of many projects.  
+
+2. Once an application is in testing stage it is very difficult to go back and change something that was not well, throughout in the concept stage. 
+
+ 
+
+   
+
+ 2. AGILE METHODOLOGY:  
+
+Agile means ability to respond to the changes from requirements, technology and people.  
+
+It is difficult to predict in advance which software requirements, customer priorities will change and which will persist.  
+
+For many types of software, design and construction and interleaved (performed together). It is difficult to predict how much design is necessary before construction is used.  
+
+Analysis, design, construction and testing are not as predictable as we might like.  
+
+è It is an incremental Model and iterative process of software development.  
+
+è We will deliver the piece of software with only few functionalities to deliver.  
+
+.  
+
+3 MAIN PRINCIPLES THAT AGILE FOLLOW:  
+
+1. Customer no need to wait until the whole software is developed.  
+
+2. Delivering the piece of software with the few functionalities.  
+
+3. We can adopt/ accommodate / accept the requirement changes from the client.  
+
+  
+
+Planning  
+
+Design  
+
+Development  
+
+Testing  
+
+Devop  
+
+Review  
+
+ 
+
+ ADVANTAGES AND DISADVANTAGES OF AGILE METHODOLGY: 
+
+ 
+
+                       ADVANTAGES 
+
+                  DISDVANTAGES 
+
+1. There are many different model and rotations that can be used to describe software.  
+
+2. Focus on customer value.  
+
+3. Enhanced team moral and motivation.4. Skate holder collaboration.  
+
+4.  Delivering high quality software. 
+
+ 
+
+1. Extensive time commitment from each one involved.  
+
+2. Qualifying the real scope may be a challenge.  
+
+3. Endless or the boundless work.  
+
+4. Potential gap in the document.  
+
+5. Resource allocation can be a challenge. 
+
+ 
+
+ 
+
+ 
+
+Difference between waterfall model and Agile methodology:  
+
+The waterfall model is a linear, sequential project management approach, While Agile is an iterative and flexible methodology that embraces continuous feedback and adaptation.  
+
+  
+
+          WATERFALL MODEL 
+
+           AGILE METHODOLOGY 
+
+Linear, sequential 
+
+Distinct, completed in order 
+
+Difficult and costly 
+
+Thorough upfront 
+
+Structured ,documentation 
+
+Stable requirements. 
+
+Iterative, flexible 
+
+Smaller increments, with feedback loop 
+
+Easy and encouraged 
+
+Continuous evolving 
+
+Collaboration, adaptability 
+
+Evolving requirements. 
+
+ 
+
+3. SPIRAL MODEL:  
+
+ è Spiral model is iterative model.  
+
+è Overcome few drawbacks of waterfall model.  
+
+è Preferred whenever there are fewer modules to develop.  
+
+è We follow spiral model whenever there is dependency on the modules.  
+
+è For each cycle a new software will be release to customer.  
+
+è Software will be release in the form of versions.  
+
+è Also be known as version control model.  
+
+è In every cycle we follow SDLC method.  
+
+è Requirements and changes can be accepted in each cycle.  
+
+ 
+
+ 
+
+ Picture 243945631, Picture 
+
+ 
+
+STEPS INVOLVED IN THE SPIRAL MODEL :  
+
+ 
+
+1. PLANNING: Requirement Analysis.  
+
+2. RISK ANALYSIS:  
+
+                       How many developers, how many testers we need and the deadline, budget, and how many days we need.  
+
+        Plan the risk to develop or generate.  
+
+        Prototype : blue print of the software. 
+
+  
+
+  
+
+3. DEVELOPMENT AND TESTING:  
+
+          Involves complete engineering and execution.  
+
+          Designing, development (code), testing responds.  
+
+  
+
+4. Evaluation:  
+
+  
+
+    --> Customer evaluation.  
+
+    --> Also known as 1 type of testing.  
+
+ 
+
+ ADVANTAGES AND DISADVANTAGES OF SPIRAL MODEL: 
+
+ 
+
+              ADVANTAGES 
+
+                     DISADVANTAGES 
+
+1. Testing is done in every cycle.  
+
+2. Customer will get use the software for each and every module.  
+
+3. Requirement changes are allowed after every cycle.  
+
+4. Continuous risk analysis. 
+
+1. Requirement changes are not allowed in between the cycle.  
+
+2. Every cycle of spiral model looks like waterfall model.  
+
+3. No testing in requirement phase and testing phase. 
+
+  
+
+  
+
+V- MODEL:  
+
+          V model is also known as V – V model.  
+
+è V-V Stands for verification and validation.  
+
+è Procedure will be in the shape of V  
+
+  
+
+V - Verification we have few steps:  
+
+1. Requirement Gathering.  
+
+2. System analysis.  
+
+3. Software design.  
+
+4. Module design.  
+
+5. Coding.  
+
+  
+
+V – Validation:  
+
+1. Testing module: Each module is tested separately.  
+
+2. Integration: All 10 modules will execute sequentially.  
+
+3. System: whole system will be tested.  
+
+4. User Acceptance: software tested, whether if it is performing as per the requirement or not.  
+
+è This both verification and validation will go in parallel way.  
+
+è Parallel execution.  
+
+è At each and every stage, test plans and test cases are created to verify and validate the product or project according to the requirement stages.  
+
+  
+
+INCREMENTAL MODEL:  
+
+Picture 2108629211, Picture 
+
+Incremental model combines elements of the waterfall model applied is as iterative.  
+
+Incremental model is particularly useful when staffing is unavailable for a complete implementation by the business deadline that has been established for the project.  
+
+Early increments can be implemented with the fewer people.  
+
+In addition, increments can be planned to manage technical risks.  
+
+è Same as Agile methodology.  
+
+è Requirements are divided into many modules.  
+
+è Each module will undergo through all the steps in the SDLC.  
+
+è Chosen for lengthy projects (long term projects).  
+
+è When requirement are superiors.  
+
+ 
+
+ 
+
+ 
+
+         AWS: CLOUD 
+
+Space required to process the data and uses it for application. 
+
+Creating the huge space with all the services to use or to rest. 
+
+ 
+
+CLOUD COMPUTING: 
+
+It is an ability to store your data (or) place where it can be store our data. 
+
+Processing the data & access the applications via internal services. 
+
+TYPES OF CLOUD COMPUTING: 
+
+SERVICE MODE. 
+
+DEPLOYMENT MODE. 
+
+ 
+
+DATA 
+
+APPLICATIONS 
+
+RUN-TIME 
+
+MIDDLE WARE 
+
+OPERATING SYSTEM 
+
+VITUALIZATION 
+
+SERVER 
+
+STORAGE 
+
+NETWRKING 
+
+ 
+
+SERVICE MODE: 
+
+SaaS – software as a service. 
+
+PaaS– platform as a service. 
+
+IaaS– infra structure as a service. 
+
+ 
+
+SaaS – software as a service: 
+
+--> It provides a full application stack as a server that customer can access it and make use of it. 
+
+--> Applications that are run in thus cloud are known as software as a service. 
+
+--> Example: Food delivery application. 
+
+--> Application are designed for the end users. 
+
+--> Applications are delivered to them only in online. 
+
+--> Cloud providers leases the application or software. 
+
+--> apart from all this things only data is managed by ourselves. 
+
+--> Remaining all the above are maintenance by vendors. (any type of cloud services).  
+
+ 
+
+PaaS – Platform as a Service:  
+
+--> No control over the underline arcitechture. ( Storage, operating system, server). 
+
+--> Example: Google search engine. 
+
+--> While using PaaS we can create our own application and keep it on google engine. 
+
+--> Only data and applications are managed by ourselves. 
+
+--> Remaining RUN-TIME, MIDDLE-WARE, OPERATING SYSTEM, VITUALIZATION, SERVER, STORAGE, NETWORKING are managed by vendors. 
+
+IaaS – Infra structure as a Service: 
+
+-->  
+
+ 
+
+ 
+
+ 
+
+DEPLOYMENT MODE: 
+
+Public cloud. 
+
+Private cloud. 
+
+Hybrid cloud. 
+
+Community cloud. 
+
+Top 10 cloud providers: 
+
+AWS ( Amazon Web services ) -36% 
+
+Azure – 27% 
+
+GCP ( Google cloud Platform) – 15% 
+
+Alibaba – 10% 
+
+IBM – 7% 
+
+Salesforce -11% 
+
+Oracle - 3% 
+
+Tencent 
+
+Digital ocean  
+
+Linode  
+
+  
+
+  
+
+Comparision of AWS, AZURE AND GCP: 
+
+AWS,  Azure, and GCP are the leading cloud platforms, each with strengths in different areas. 
+
+AWS boast a vast ecosystem and global reach. 
+
+Azure excels in integration nad security. 
+
+GCP shines in data management and machine learning. 
+
+ 
+
+ 
+
+ 
+
+                AWS 
+
+             AZURE 
+
+            GCP 
+
+LAUNCHING YEAR 
+
+2004 
+
+2010 
+
+2008 
+
+AVAILABILITY 
+
+84 availability zone 
+
+60+ region 
+
+74 TOTAL ZONES 
+
+SERVICES 
+
+212+ services 
+
+200+ services 
+
+100+ services 
+
+CLOUD SHARE 
+
+33% of the market 
+
+21% of the market 
+
+8% of the market 
+
+COMPUTE ENGINE 
+
+Elastic compute system 
+
+Virtual machine 
+
+Compute engine 
+
+NETWORKING 
+
+Virtual private cloud 
+
+Virtual network 
+
+Cloud virtual network 
+
+PRICING 
+
+Based on charge per hour 
+
+Based on charge per minute 
+
+Based on charge per m 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+               DEVOPS 
+
+Devops: 
+
+1. combination of developers team and operatinal team. 
+
+                                                (or) 
+
+      Devop is a culture which varies from organization to organization. 
+
+                                                (or) 
+
+     Development team and operational team working in collaboration. 
+
+       
+
+               It is a continuous or never-ending process. 
+
+Devops is the process of delivering by ensuring automation in place, ensuring the quality with continuous integration and testing and continuous deployment. 
+
+ Developer (multiple developers) they will work together the work that client as assigned. 
+
+ 
+
+Devops: 
+
+Approach makes company adapt faster up to dates in development changes. 
+
+The teams can deliver quickly. 
+
+And the deployments work more consistence and smooth. 
+
+There may be a communication challenges devops manage extreme line flow between the teams and makes the software development process as successful. 
+
+The devops culture is implemented in several phases with the help of several tools. 
+
+ 
+
+1. system admin: maintain the server (if any issue immediately notice to developer). 
+
+2. build and release state : they will build(package) the application first and deploy (copying the application) it to the server (server web) 
+
+3. server admin: check whether it need to select web application or data application. 
+
+  
+
+ Before devops there is no communication between the developer's team (develop as well as the operational team 
+
+ Why devops? 
+
+To deliver the software, product, project on time with good quality. 
+
+ To reduce the time (time taken to deliver the application to the client /end users). 
+
+  
+
+Developers team planning, code, build, test. 
+
+ Operational team will deploy the application to the monitor for monitoring 
+
+  
+
+why Linux? 
+
+Linux is an open-source operating system 
+
+This has very high-performance rating 
+
+Because it is very secure. 
+
+in order to maintain the security. 
+
+  
+
+Devops tools:  
+
+1. planning/ code/scm: git, jira. 
+
+2. Build -Apache Maven. graddle, apache ANT 
+
+3. Testing - selenium testing with python 
+
+4. Interation - jenkins(CI/CD) 
+
+5. Deployment -docker, kubernetes- containerisation tools 
+
+6. Operational - Ansible  -- managing the application. 
+
+7. Monitoring - teraform 
+
+  
+
+ 
+
+PYTHON:  
+
+It is a popular programming language. It was created by Guido van Rossum, in the year 1991. 
+
+Web development (server side). 
+
+software development, 
+
+system scripting. 
+
+  
+
+What python can do? 
+
+ Python can be used on a server for creating the web application. 
+
+Used to create the workflow of software development. 
+
+Python can handle big data and complex mathematical operations. 
+
+  
+
+why we choose python? 
+
+It works on different platform like windows, Linux, mac, Rasbery, etc. 
+
+Python has a very simple syntax even beginners can easily understand. 
+
+Allows developers to write the program in few lines. 
+
+  
+
+JAVA: 
+
+program to print hello world. 
+
+class example {. 
+
+public static void main (string args[]) { 
+
+system. out. print] n ("Hello World"); 
+
+} 
+
+} 
+
+PYTHON: 
+
+program to print bhello world 
+
+print("Hello World!”) 
+
+ 
+
+Python comments: comment lines. 
+
+--> Comments are used to explain the code that you have written. 
+
+--> Comments can be used to prevent execution when testing. 
+
+ 
+
+ 
+
+ 
+
+creating a comment: 
+
+#hi hello 
+
+#Do u have any idea 
+
+#Suggest something! 
+
+Variables: 
+
+Used to assign some values or content. 
+
+Ex:  a =10 
+
+        b =100 
+
+         c = a +b 
+
+ 
+
+name = "Tahsin"# This is a sample Python script. 
+print("Name:",name) 
+age = 24 
+print("Age:",age) 
+height = 5.2 
+print("Height:",height) 
+is_student = True 
+print("is_student:",is_student) 
+
+ 
+
+Name: Tahsin 
+
+Age: 24 
+
+Height: 5.2 
+
+is_student: True 
+
+ 
+
+ 
+
+Data types: 
+
+  Type of data including in our code. 
+
+Example: 10 - integer unit 
+
+                      ABC – String – str 
+
+                      10.50 - float 
+
+                       a+ib = complex  
+
+                       010110 – byte. 
+
+ 
+
+     Explain about variables?  
+
+In python a variable is a named storage location that holds data values, allowing you to store and manipulate information within your code. You create a variable by assigning a value to it using the assignment operator (=). 
+
+Variable names: 
+
+      Variables name can contain letters, numbers and underscores, but they must start with a letter or underscore. 
+
+List the data types:  
+
+Pythons built in data types can be broadly categorized into: Numeric (integers, floats, complex), Sequence (strings, lists, tubules) Set mapping (Dictionaries), Boolean, and none. 
+
+Integers: whole numbers (e.g., age = 25) 
+
+Floats: Numbers with decimal point (e.g., price = 19.99) 
+
+Strings: Text enclosed in quotes (e.g., name = “Python” or message = ‘hello world’!) 
+
+Booleans: true or false values (e.g., is active = True) 
+
+Lists: ordered collections of items (e.g., numbers = 1,2,3) 
+
+Dictionaries: Key-value pairs (e.g., person = {“name”: “Alice”, “age”: 25})  
+
+     010110 – byte 
+
+ 
+
+ 
+
+ 
+
+name="abc" 
+print("name:", name) 
+print("type of name:",type(name)) 
+ 
+age=23 
+print("age:", age) 
+print("type of age:", type(age)) 
+ 
+height=5.8 
+print("height:", height) 
+print("type of a height:",type(height)) 
+ 
+is_student=True 
+print("is_student:", is_student) 
+print("type of is_student:", type(is_student)) 
+ 
+unique_numbers={1,2,3,4} 
+print("unique_numbers:", unique_numbers) 
+print("type of a unique_numbers:", type(unique_numbers)) 
+ 
+fruits=("apple","orange","kivi") 
+print("fruits:", fruits) 
+print("type of a fruits:", type(fruits)) 
+ 
+flowers=("rose","tulip","lily") 
+print("flowers:", flowers) 
+print("type of a flowers:", type(flowers)) 
+ 
+
+ name: abc  type of name: <class 'str'>  
+
+age: 23 type of age: <class 'int'>  
+
+height: 5.8 type of a height: <class 'float'> 
+
+ is_student: True type of is_student: <class 'bool'> 
+
+ unique_numbers: {1, 2, 3, 4} type of a unique_numbers: <class 'set'>  
+
+fruits: ('apple', 'orange', 'kivi') type of a fruits: <class 'tuple'>  
+
+flowers: ('rose', 'tulip', 'lily') type of a flowers: <class 'tuple'> 
+
+Process finished with exit code 0 
+
+ 
+
+Advantages and applications of python programming over other programming language? 
