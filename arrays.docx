@@ -1,0 +1,192 @@
+ARRAY 
+
+Arrays are mainly used to store multiple values in one single variable. 
+
+Example: cars= [“Benz”, “ford”, “BMW”] 
+
+Array: An Array is a special variable, which can hold more than one value at a time. 
+
+Example:  
+
+Car1= ‘Ford” 
+
+Car2 = “BMW” 
+
+Car3 = “Maruthi” 
+
+Accessing the elements of an array: 
+
+X = cars 0] 
+
+ 
+
+Example: 
+
+Cars = [“Benz”, “Ford”, “BMW”] 
+
+X = cars [0] 
+
+Print(x) 
+
+To find the length of an array: 
+
+Cars = [“Benz”, “Ford”, “BMW”] 
+
+X = cars [0] 
+
+Print(x) 
+
+X = len(cars) 
+
+Print(X) 
+
+fruits=["apple","mango","orange","banana"] 
+x=fruits[0] 
+print(x) 
+x=len(fruits) 
+print(x) 
+
+ 
+
+OUTPUT: 
+
+Picture 1881345477, Picture 
+
+Looping array elements: 
+
+Cars = [“Benz”, “Ford”, “BMW”] 
+
+For x in cars 
+
+Print(x) 
+
+#looping array elements: 
+fruits=["apple","mango","orange","banana"] 
+for x in fruits: 
+    print(x) 
+
+ 
+
+OUTPUT: 
+
+Picture 1302380329, Picture 
+
+Adding element to an array; 
+
+Append (): to add new element 
+
+Cars = [“Benz”, “Ford”, “BMW”] 
+
+Cars.append(“Honda”) 
+
+Print (cars) 
+
+Remove element from array: 
+
+Cars = [“Benz”, “Ford”, “Honda”] 
+
+Cars.pop(1) 
+
+Print(cars) 
+
+ 
+
+LIST OF ARRAY COMMANDS: 
+
+APPEND (): Adds a new element at the end of the list. 
+
+#adding element to an array 
+fruits.append("strawberry") 
+print(fruits) 
+
+ 
+
+OUTPUT: 
+
+Picture 1696069736, Picture 
+
+CLEAR (): Removes all the elements from the list. 
+
+#remove element from array 
+fruits.pop(2) 
+print(fruits) 
+
+ 
+
+OUTPUT: 
+
+Picture 1623071063, Picture 
+
+COPY (): Returns a copy of a list. 
+
+#copy of a list 
+fruits.copy() 
+print(fruits) 
+
+ 
+
+OUTPUT: 
+
+Picture 449412674, Picture 
+
+COUNT (): Returns the number of elements in a specified value. 
+
+#count 
+fruits.count("mango") 
+print(fruits) 
+
+ 
+
+OUTPUT: 
+
+Picture 1226458403, Picture 
+
+EXTEND (): Same like append. 
+
+INDEX (): returns the index of first element with specified value. 
+
+#index 
+fruits.index("strawberry") 
+print(fruits) 
+
+ 
+
+OUTPUT: 
+
+Picture 795201462, Picture 
+
+INSERT (): Adds an element at specified position. 
+
+#insert 
+fruits.insert(2,"papaya") 
+print(fruits) 
+
+ 
+
+OUTPUT: 
+
+Picture 682346260, Picture 
+
+POP (): Removes the element at specified position. 
+
+REVERSE (): Reverses the order of the list. 
+
+#reverse 
+fruits.reverse() 
+print(fruits) 
+
+ 
+
+OUTPUT: 
+
+Picture 612434886, Picture 
+
+SORT (): Sorts the list. 
+
+#sort 
+fruits.sort() 
+print(fruits) 
+
+OUTPUT: 
+
+Picture 993869055, Picture 
