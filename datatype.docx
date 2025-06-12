@@ -1,0 +1,638 @@
+LIST DATA TYPE: 
+
+List is collection of some element. 
+
+It consists of ordered collection of items, or elements, or data. 
+
+List is mutable. (changeable) 
+
+Syntax: list is represented by angular braces - “[]“ 
+
+List allows duplicate 
+
+List are used to store multiple items in a single variable. 
+
+Lists are one of the 4 types of data type in a Python. 
+
+ 
+
+List= [ 1,2,4,6,8,9, “apple”, “mango”, 2,4,6,8] 
+
+Print(list) 
+
+List=[12,22,32,42,"orange", "chiku", 12,22,32,42] 
+print(List) 
+print(len(List)) 
+List[3]="apple" 
+print(List) 
+List[4:5]=["52"] 
+print(List) 
+List.remove("52") 
+print(List) 
+ 
+List=["banana", "apple", "mango",5,10,15,20,25,30] 
+print(List) 
+print(len(List)) 
+List[8]="12" 
+print(List) 
+List[3:4]=["orange"] 
+print(List) 
+List.remove("banana") 
+print(List) 
+ 
+List=[3,6,9,12,15,18,"tomato","potato","onion"] 
+print(List) 
+print(len(List)) 
+List[7]="21" 
+print(List) 
+List[5:6]=["26"] 
+print(List) 
+ 
+
+ 
+
+ 
+
+ 
+
+List.remove("tomato") 
+print(List) 
+ 
+List=["a","b","c","d","e",1,2,3,4,5] 
+print(List) 
+print(len(List)) 
+List[5]="f" 
+print(List) 
+List[2:3]=["12"] 
+print(List) 
+List.remove("d") 
+print(List) 
+ 
+List=["x","y","z",9,8,7] 
+print(List) 
+print(len(List)) 
+List[3]="10" 
+print(List) 
+List[4:5]=["4"] 
+print(List) 
+List.remove("x") 
+print(List) 
+
+OUTPUT: 
+
+ 
+
+Picture 
+
+Picture 
+
+TUPLE DATA TYPE: 
+
+It is immutable (unchangeable). 
+
+Tuple is ordered collection of items. 
+
+Tuple is created within the Para synthesis - ( ) 
+
+Tuple also contains multiple data types. 
+
+Faster access than remaining. (since it is immutable). 
+
+Sequence operations. - Indexing, Slicing, Concatenation. 
+
+Indexing – position of an element, 
+
+Slicing – range of an element, 
+
+Concatenation – addition of Strings. 
+
+Since, tuples are immutable, we cannot update their elements directly. However, we can update it by converting it into list and we can add the items and again we can convert. 
+
+Tuple= (1,2,3) 
+
+List=list(tuple) 
+
+Print(list) 
+
+Converting back list to couple 
+
+Tuple1 = tuple(list) 
+
+Print(tuple1) 
+
+We cannot delete tuple as it is immutable directly. 
+
+Tuple=(12,24,32,44,52) 
+List=list(Tuple) 
+print(List) 
+List[3]=30 
+print(List) 
+ 
+Tuple=("x","y","z") 
+List=list(Tuple) 
+print(List) 
+List[0]="w" 
+print(List) 
+print(len(Tuple)) 
+ 
+Tuple=(1,2,3,"apple", "orange","pineapple",1,2,3) 
+List=list(Tuple) 
+print(List) 
+List[4]=5 
+print(List) 
+ 
+Tuple=("chocolate","ice cream", "strawberry") 
+List=list(Tuple) 
+print(List) 
+List[2]="mango" 
+print(List) 
+ 
+Tuple=(22,23,24,25,25) 
+List=list(Tuple) 
+print(List) 
+List[2]=26 
+print(List) 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+Picture 
+
+SET DATA TYPE:  
+
+Set is used to store multiple items in a single variable. 
+
+Sets are unordered collection of items. 
+
+Sets are Mutable. 
+
+No duplicates are allowed. 
+
+Set is represented with “Curly Braces”. 
+
+Set1 = {“apple”, “mango”, “banana”, “kiwi”} 
+
+Print(set1) 
+
+Output: {“mango”, “banana”, “kiwi”, “apple”}. 
+
+ 
+
+Set1={"x","y","z",1,2,3,4,5} 
+print(Set1) 
+ 
+Set2={12,22,32,42,52,62,72,82,92} 
+print(Set2) 
+ 
+Set3={1,5,2,6,3,8,4,9} 
+print(Set3) 
+ 
+Set4={"sun", "moon", "star",  "eclipse"} 
+print(Set4) 
+ 
+Set5={"orange",  "mango", "sugar", "coffee"} 
+print(Set5) 
+
+OUTPUT: 
+
+Picture 
+
+Differences between LIST, SET, and TUPLE:  
+
+LIST 
+
+SETS 
+
+TUPLE 
+
+List = [10, 12, 15] 
+
+Set = {1,23,34} 
+
+Print(set) - {1,23,24} 
+
+Set = {1,1} 
+
+Print(set) - {1} 
+
+Tuple= (1,2,3) 
+
+ 
+
+ACCESS:               print(list[0]) 
+
+Print(set), 
+
+Set elements can't be indexed 
+
+Print(List) 
+
+Can contains duplicate elements. 
+
+Can't contain duplicate elements. Faster compared to lists. 
+
+Can contains duplicate elements. Faster compared to lists. 
+
+mutable 
+
+mutable 
+
+immutable 
+
+List = [] 
+
+Set = set() 
+
+Words = {} 
+
+Slicing can be done 
+
+ 
+
+Slicing: Not done. 
+
+Slicing can also be done on tuples 
+
+Usage: 
+
+Use list if you have a collection of data that doesn’t need random access. 
+
+Membership testing and the elimination of duplicate entries. 
+
+Use tuples when your data cannot change. 
+
+ 
+
+ 
+
+DICTIONARY: 
+
+Dictionary is used to store the data in the form of key value pair. 
+
+Key: Value 
+
+Example: Name: “Tahseen” 
+
+      Age: “24” 
+
+It is a collection of data in ordered form. 
+
+It is Mutable. 
+
+It does not allow duplicates. (keys are not duplicate values can be duplicate). 
+
+Dictionaries re written in curly braces. “{ }” 
+
+Dictionary is also called as updating. 
+
+D= {“brand”: “ford”, “Model”: Mustang”, “year”: 2004} 
+
+Print(D) 
+
+Removing the data from the dictionary: 
+
+D. pop (“year”) 
+
+Print(D) 
+
+Adding a new item to the dictionary: 
+
+D [“color”] = “red” 
+
+Print(D) 
+
+ 
+
+D={"Brand":"Fastrack","Model":"Beige ladies","Year":"1998"} 
+print(D) 
+D.pop("Model") 
+print(D) 
+D["color"]="Rose" 
+print(D) 
+ 
+D={"Brand":"Ford","Model":"Mustang","Year":"2004"} 
+print(D) 
+D.pop("Year") 
+print(D) 
+D["colour"]="Red" 
+print(D) 
+ 
+
+ 
+
+OUTPUT: 
+
+Picture 
+
+CONDITIONAL STATEMENTS: 
+
+IF: IF is used to display the output when only the condition is satisfied, and it won't display the output when condition fails to execute. 
+
+a=30 
+
+B=20 
+
+If b<a 
+
+      Print (“B is smaller than A) 
+
+a=250 
+b=50 
+if b<a: 
+    print("b is smaller than a") 
+ 
+a=50 
+b=100 
+if b<a: 
+    print("b is smaller than a") 
+ 
+a=30 
+b=30 
+if b is a: 
+    print(b is a) 
+ 
+x=150 
+y=250 
+if b<a: 
+    print("y is smaller than x") 
+ 
+
+ 
+
+OUTPUT: 
+
+Picture 
+
+ELIF: ELIF is used when if condition fails to execute. 
+
+A=30 
+
+B=30 
+
+If b<a 
+
+Print (“B is smaller than A”) 
+
+Elif a==b 
+
+Print (“A and B both are Equal) 
+
+x=50 
+y=50 
+if y<x: 
+    print("y is smaller than x") 
+elif x==y: 
+    print("x and y both are equal") 
+ 
+a="apple" 
+b="apple" 
+if b is not a: 
+    print("b is not a") 
+elif b is a: 
+    print("b and a both are equal") 
+
+ 
+
+OUTPUT: 
+
+Picture 
+
+ELSE: ELSE is used to perform the execution when IF and ELIF fails to execute. 
+
+A=30 
+
+B=300 
+
+If b<a 
+
+     print (“B <A) 
+
+ELIF a==b 
+
+Print (“A and b both are equal) 
+
+ELSE a>b 
+
+      print (“A is greater  than B”) 
+
+OUTPUT: 
+
+A is Greater Than B 
+
+ 
+
+a=30 
+b=300 
+if b<a: 
+    print("b is smaller than a") 
+elif a==b: 
+    print("a and b both are equal") 
+else: 
+    print("b is greater than a") 
+ 
+ 
+x=250 
+y=300 
+if y<x: 
+    print("y is smaller than x") 
+elif x==y: 
+    print("x and y both are equal") 
+else: 
+    print("y is greater than x") 
+
+ 
+
+OUTPUT: 
+
+Picture 
+
+ 
+
+ 
+
+SHORTHAND IF: If you have only one statement to execute then you can put it on single Line. 
+
+A=10 
+
+B=20 
+
+If a>b 
+
+    print (“A is Greater Than B”) 
+
+ 
+
+a=20 
+b=10 
+if a>b: 
+    print("a is greater than b") 
+ 
+x=80 
+y=60 
+if x>y: 
+    print("x is greater than y") 
+ 
+p=30 
+r=60 
+if p>r: 
+    print("p is greater than r") 
+
+ 
+
+OUTPUT: 
+
+Picture 
+
+IF ELSE:  
+
+a=100 
+
+B=20 
+
+IF a>b 
+
+     Print (“A is Greater Than B”) 
+
+ELSE b>a 
+
+     Print (“B is Greater Than A”) 
+
+a=10 
+b=50 
+if a>b: 
+    print("a is greater than b") 
+else: 
+    print("b is greater than a") 
+ 
+x=30 
+y=60 
+if x>y: 
+    print("x is greater than y") 
+else: 
+    print("y is greater than x") 
+
+ 
+
+OUTPUT: 
+
+Picture 
+
+LOOPS: 
+
+FOR LOOP:  
+
+Used for iterating over a sequence of set, list, tuple, dictionary. 
+
+For loop is used to execute a set of statements. 
+
+Example:  
+
+Fruits = ["apple”, “mango”, “banana”, “kiwi”, “strawberry”, ‘orange”, “grapes”] 
+
+For i in fruits  
+
+Print(i) 
+
+fruits=["apple","mango","banana","kiwi","strawberry","orange","grapes"] 
+for i in fruits: 
+    print(i) 
+#to break the iteration 
+fruits=["apple","mango","banana","kiwi","strawberry","orange","grapes"] 
+for i in fruits: 
+    if i=="orange": 
+        break 
+    print(i) 
+    if i=="banana": 
+        continue 
+    print(i) 
+
+ 
+
+BREAK STATEMENT: to break the irritation.					 
+
+If i== “kiwi”								 
+
+Print(i)									 
+
+CONTINUE STATEMENT: TO miss the statement.				 
+
+If i == “kiwi”								 
+
+ Print(i) 
+
+OUTPUT: 
+
+Picture 
+
+RANGE FUNCTION: The range function returns a sequence of numbers starting from 0 and increment by 1 and ends at specified number. 
+
+For i in range (10) 
+
+Print(i) 
+
+ 
+
+WHILE LOOP: 
+
+Using the loop we can execute a set of statements as long as condition is true. 
+
+I=1 
+
+While i<10: 
+
+Print(i) 
+
+I+=1 
+
+Output: 
+
+1 
+
+2 
+
+3 
+
+4 
+
+5 
+
+6 
+
+7 
+
+8 
+
+9 
+
+While with continue: 
+
+Ex: i = 1 
+
+       While i<10: 
+
+       I+=1 
+
+       If I ==3: 
+
+      Continue 
+
+      Print(i) 
+
+   While with else: 
+
+      Ex: i = 1 
+
+      While i<21 
+
+      Print(i) 
+
+      I+=1 
+
+      Else: 
+
+ 	       print(“i is no longer less than 20”) 
+    	 
