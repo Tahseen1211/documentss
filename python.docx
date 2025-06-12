@@ -1,0 +1,1599 @@
+PYTHON:  
+
+It is a popular programming language. It was created by Guido van Rossum, in the year 1991. 
+
+Web development (server side). 
+
+software development, 
+
+system scripting. 
+
+  
+
+What python can do? 
+
+ Python can be used on a server for creating the web application. 
+
+Used to create the workflow of software development. 
+
+Python can handle big data and complex mathematical operations. 
+
+  
+
+why we choose python? 
+
+It works on different platform like windows, Linux, mac, Rasbery, etc. 
+
+Python has a very simple syntax even beginners can easily understand. 
+
+Allows developers to write the program in few lines. 
+
+  
+
+JAVA: 
+
+program to print hello world. 
+
+class example {. 
+
+public static void main (string args[]) { 
+
+system. out. print] n ("Hello World"); 
+
+} 
+
+} 
+
+PYTHON: 
+
+program to print hello world 
+
+print("Hello World!”) 
+
+ 
+
+Python comments: comment lines. 
+
+--> Comments are used to explain the code that you have written. 
+
+--> Comments can be used to prevent execution when testing. 
+
+creating a comment: 
+
+#hi hello 
+
+#Do u have any idea 
+
+#Suggest something! 
+
+Variables: 
+
+Used to assign some values or content. 
+
+Ex: 
+
+ a =10, 
+
+b =100, 
+
+c = a +b 
+
+ 
+
+name = "Tahsin"# This is a sample Python script. 
+print("Name:",name) 
+age = 24 
+print("Age:",age) 
+height = 5.2 
+print("Height:",height) 
+is_student = True 
+print("is_student:",is_student) 
+
+ 
+
+Output: 
+
+Name: Tahsin 
+
+Age: 24 
+
+Height: 5.2 
+
+is_student: True 
+
+ 
+
+Data types:  Type of data including in our code. 
+
+Example: 10 - integer unit 
+
+                      ABC – String – str 
+
+                      10.50 - float 
+
+                       a+ib = complex  
+
+                       010110 – byte. 
+
+Explain about variables?  
+
+In python a variable is a named storage location that holds data values, allowing you to store and manipulate information within your code. You create a variable by assigning a value to it using the assignment operator (=). 
+
+Variable names: 
+
+      Variables name can contain letters, numbers and underscores, but they must start with a letter or underscore. 
+
+List the data types:  
+
+Pythons built in data types can be broadly categorized into: Numeric (integers, floats, complex), Sequence (strings, lists, tubules) Set mapping (Dictionaries), Boolean, and none. 
+
+Integers: whole numbers (e.g., age = 25) 
+
+Floats: Numbers with decimal point (e.g., price = 19.99) 
+
+Strings: Text enclosed in quotes (e.g., name = “Python” or message = ‘hello world’!) 
+
+Booleans: true or false values (e.g., is active = True) 
+
+Lists: ordered collections of items (e.g., numbers = 1,2,3) 
+
+Dictionaries: Key-value pairs (e.g., person = {“name”: “Alice”, “age”: 25})  
+
+     010110 – byte 
+
+ 
+
+name="abc" 
+print("name:", name) 
+print("type of name:",type(name)) 
+ 
+age=23 
+print("age:", age) 
+print("type of age:", type(age)) 
+ 
+height=5.8 
+print("height:", height) 
+print("type of a height:",type(height)) 
+ 
+is_student=True 
+print("is_student:", is_student) 
+print("type of is_student:", type(is_student)) 
+ 
+unique_numbers={1,2,3,4} 
+print("unique_numbers:", unique_numbers) 
+print("type of a unique_numbers:", type(unique_numbers)) 
+ 
+fruits=("apple","orange","kivi") 
+print("fruits:", fruits) 
+print("type of a fruits:", type(fruits)) 
+ 
+flowers=("rose","tulip","lily") 
+print("flowers:", flowers) 
+print("type of a flowers:", type(flowers)) 
+ 
+
+Output: 
+
+name: abc  ;type of name: <class 'str'>  
+
+age: 23 ;type of age: <class 'int'>  
+
+height: 5.8; type of a height: <class 'float'> 
+
+is_student: True; type of is_student: <class 'bool'> 
+
+unique_numbers: {1, 2, 3, 4}; type of a unique_numbers: <class 'set'>  
+
+fruits: ('apple', 'orange', 'kivi'); type of a fruits: <class 'tuple'>  
+
+flowers: ('rose', 'tulip', 'lily'); type of a flowers: <class 'tuple'> 
+
+Process finished with exit code 0 
+
+ 
+
+Advantages and applications of python programming over other programming language? 
+
+ 
+
+OPERATORS: 
+
+Arithmetic operator, 
+
+Logical Operators, 
+
+Comparison Operators, 
+
+Assignment Operators, 
+
+Identity Operators, 
+
+Membership Operators, 
+
+Bitwise Operators, 
+
+  
+
+ARITHMETIC OPERATORS:  Performs Arithmetic operations. 
+
+Addition, 
+
+Subtraction 
+
+Multiplication 
+
+Division 
+
+Modulus 
+
+Floor Division 
+
+ 
+
+ADDITION: to add two numbers, 
+
+Example: 
+
+program:  a=25 
+
+ 	       b=50 
+
+       sum = a+b 
+
+       Print(“sum of two numbers is:”, sum) 
+
+      OUTPUT: 75 
+
+ 
+
+a=15 
+b=10 
+sum=a+b 
+print("sum of two numbers is:", sum) 
+ 
+a=18 
+b=23 
+sum=a+b 
+print("sum of two numbers is:", sum) 
+ 
+a=23 
+b=34 
+sum=a+b 
+print("sum of two numbers is:", sum) 
+ 
+a=16 
+b=42 
+sum=a+b 
+print("sum of two numbers is:", sum) 
+ 
+a=57 
+b=63 
+sum=a+b 
+print("sum of two numbers is:", sum) 
+
+ 
+
+  
+
+OUTPUT: 
+
+sum of two numbers is: 25, 
+
+sum of two numbers is: 41 
+
+sum of two numbers is: 57 
+
+sum of two numbers is: 58 
+
+sum of two numbers is: 120 
+
+Process finished with exit code 0 
+
+ 
+
+SUBTRACTION: Difference  
+
+Example: 
+
+Program: a=50 
+
+      b=25 
+
+      difference=a-b  
+
+     print(“difference of two numbers is:”, difference) 
+
+     OUTPUT: 25 
+
+a=22 
+b=12 
+diff=a-b 
+print("difference of two numbers is:", diff) 
+ 
+a=236 
+b=52 
+diff=a-b 
+print("difference of two numbers is:", diff) 
+ 
+a=48 
+b=24 
+diff=a-b 
+print("difference of two numbers is:", diff) 
+ 
+a=69 
+b=54 
+diff=a-b 
+print("difference of two numbers is:", diff) 
+ 
+a=80 
+b=20 
+diff=a-b 
+print("difference of two numbers is:", diff) 
+
+OUTPUT: 
+
+Picture 254517157, Picture 
+
+Process finished with exit code 0 
+
+ 
+
+ 
+
+MULTIPLICATION: Product 
+
+Example:  
+
+Program: a=2 
+
+       	      b=50 
+
+      	      Prod= a*b 
+
+     	       print(“product of two numbers is:”, prod)  
+
+     	       OUTPUT: 100 
+
+a=22 
+b=12 
+prod=a*b 
+print("product of two numbers is:", prod) 
+ 
+a=5 
+b=6 
+prod=a*b 
+print("product of two numbers is:", prod) 
+ 
+a=64 
+b=22 
+prod=a*b 
+print("product of two numbers is:", prod) 
+ 
+a=65 
+b=3 
+prod=a*b 
+print("product of two numbers is:", prod) 
+ 
+ 
+a=48 
+b=12 
+prod=a*b 
+print("product of two numbers is:", prod) 
+
+ 
+
+OUTPUT: 
+
+Picture 1886729492, Picture 
+
+Process finished with exit code 0 
+
+ 
+
+DIVISION:  
+
+Example: 
+
+Program: a=250 
+
+      b=50 
+
+      	      Div= a/b 
+
+      print(“division of two numbers is:”, Div ) 
+
+a=26 
+b=12 
+Div=a/b 
+print("division of two numbers is:", Div) 
+ 
+x=24 
+y=2 
+Div=x/y 
+print("division of two numbers is:", Div) 
+ 
+apple=300 
+labours=70 
+Div=apple/labours 
+print("division of two numbers is:", Div) 
+ 
+donuts=12 
+friends=3 
+Div=donuts/friends 
+print("division of two numbers is:", Div) 
+ 
+a=32 
+d=15 
+Div=a/d 
+print("division of two numbers is:", Div) 
+ 
+
+ 
+
+ 
+
+OUTPUT: 
+
+Picture 1833149718, Picture 
+
+Process finished with exit code 0  
+
+MODULUS:  Gives the value of remainder 
+
+ Example:											  Program: a=250,											      b=50												      Mod=a %b												      Print(“Modulus of two numbers is:” Mod)						      Output: Modulus of two numbers is:”, Mod) 
+
+a=50 
+b=15 
+Mod=a%b 
+print("modulus of two numbers is:", Mod) 
+ 
+x=250 
+y=50 
+Mod=x%y 
+print("modulus of two numbers is:", Mod) 
+ 
+g=22 
+h=12 
+Mod=g%h 
+print("modulus of two numbers is:", Mod) 
+ 
+chem=43 
+maths=40 
+Mod=chem%maths 
+print("modulus of two numbers is:", Mod) 
+ 
+water=60 
+juice=46 
+Mod=water%juice 
+print("modulus of two numbers is:", Mod) 
+
+OUTPUT:  
+
+Picture 174595873, Picture 
+
+Process finished with exit code 0 
+
+ 
+
+FLOOR DIVISION (//)  :  Gives quotient of integer. 
+
+Example: 
+
+Program: a=250,											      b=50											    	         floor=a//b,											     Print(“Floor division of two numbers is:”, floor).					     Output: Floor division of two numbers is: 5) 
+
+a=30 
+b=50 
+floor=a//b 
+print("floor division of two numbers is:", floor) 
+ 
+c=200 
+d=50 
+floor=c//d 
+print("floor division of two numbers is:", floor) 
+ 
+e=47 
+f=5 
+floor=e//f 
+print("floor division of two numbers is:", floor) 
+ 
+g=36 
+h=12 
+floor=g//h 
+print("floor division of two numbers is:", floor) 
+ 
+i=13 
+j=5 
+floor=i//j 
+print("floor division of two numbers is:", floor) 
+ 
+ 
+
+ 
+
+OUTPUT: 
+
+Picture 1603121335, Picture 
+
+Process finished with exit code 0 
+
+ 
+
+2. LOGICAL OPERATORS: 
+
+AND OPERATOR, 
+
+OR OPERATOR 
+
+NOT OPERATOR. 
+
+1. And operator: Returns true if both the statements are true. 
+
+a		b		y 
+
+TRUE		TRUE		TRUE 
+
+TRUE		FALSE		FALSE	 
+
+FALSE		TRUE		FALSE	 
+
+FALSE		FALSE		FALSE	 
+
+Program: a=5				a=5 
+
+      print(a>1 and a<4),	print(a>1 and a<10): 
+
+      output: false;		output: true 
+
+      a=5 
+print(a>1 and a<4), 
+a=5 
+print(a>1 and a<10) 
+ 
+w=10 
+print(w>9 and w<11) 
+ 
+t=24 
+print(t>22 and t<25 ) 
+ 
+x=40 
+print(x>42 and x<42 ) 
+
+ 
+
+OUTPUT: 
+
+Picture 585199023, Picture 
+
+Process finished with exit code 0 
+
+2. OR OPERATOR: Returns true if any of the statement is true. 
+
+a		b		y 
+
+TRUE		TRUE		TRUE 
+
+TRUE		FALSE		TRUE 
+
+FALSE		TRUE		TRUE 
+
+FALSE		FALSE		FALSE 
+
+ 
+
+ Program: a=5 
+
+      print(a>6 or a<4) 
+
+      output: true 
+
+ 
+
+a=40 
+print(a>48 or a<35) 
+ 
+g=26 
+print(g>22 or g<28) 
+ 
+d=65 
+print(d>63 or d<63) 
+ 
+t=65 
+print(t>66 or t<60) 
+ 
+h=620 
+print(h>652 or h<628) 
+
+OUTPUT:  
+
+Picture 251498007, Picture 
+
+Process finished with exit code 0 
+
+3. NOT OPERATOR: Reverses the result. 
+
+a		y 
+
+TRUE		FALSE		 
+
+FALSE		TRUE 
+
+      Program: a=5 
+
+                   print(not(a>6 or a<4)) 
+
+            Output: True 
+
+ a=26 
+print(not(a>28 or a<22)) 
+ 
+a=450 
+print(not(a>427 or a<422)) 
+ 
+ad=642 
+print(not(ad>628 or ad<615)) 
+ 
+xy=15 
+print(not(xy>28 or xy<22)) 
+ 
+uv=8 
+print(not(uv>10 or uv<5)) 
+
+OUTPUT: 
+
+Picture 528440742, Picture  
+
+Process finished with exit code 0 
+
+COMPARISION: Used to compare two values. 
+
+Equal to: (==) 
+
+Not Equal to: (!=) 
+
+Greater Than: (>) 
+
+Less Than: (<) 
+
+Greater Than Equals To: (>=) 
+
+Less Than Equals to:  (<=) 
+
+ 
+
+Equal to: (==) 
+
+Program: a=10 
+
+      b=10 
+
+      print(a==b) 
+
+OUTPUT: True 
+
+a=13 
+b=13 
+print(a==b) 
+ 
+apple=28 
+mango=28 
+print(apple==mango) 
+ 
+glass=12 
+bottles=12 
+print(glass==bottles) 
+ 
+x=37 
+y=37 
+print(x==y) 
+ 
+t=37 
+s=37 
+print(t==s) 
+
+ 
+
+OUTPUT:  
+
+Picture 4262410, Picture 
+
+ 
+
+Not Equal To: != 
+
+Program: a=10 
+
+      b=10 
+
+      print(a!=b) 
+
+OUTPUT: False 
+
+a=18 
+b=18 
+print(a!=b) 
+ 
+a=25 
+b=14 
+print(a!=b) 
+ 
+x=35 
+y=32 
+print(a!=b) 
+ 
+rose=10 
+flowers=15 
+print(rose!=flowers) 
+ 
+apple=200 
+mango=300 
+print(apple!=mango) 
+ 
+
+OUTPUT: 
+
+Picture 2085518304, Picture 
+
+Greater Than: > - highest value. 
+
+Program: a=100 
+
+      b=10 
+
+      print(a>b) 
+
+OUTPUT: True 
+
+a=95 
+b=84 
+print(a>b) 
+ 
+a=38 
+b=54 
+print(a>b) 
+ 
+x=38 
+y=28 
+print(x>y) 
+ 
+r=476 
+s=52 
+print(r>s) 
+ 
+u=64 
+v=52 
+print(u>v) 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+OUTPUT: 
+
+Picture 1438669515, Picture 
+
+ 
+
+Less Than: <- least value. 
+
+Program: a=100 
+
+      b=10 
+
+      print(a<b) 
+
+OUTPUT: False 
+
+a=540 
+b=432 
+print(a<b) 
+ 
+e=20 
+f=22 
+print(e<f) 
+ 
+q=12 
+r=23 
+print(q<r) 
+ 
+m=258 
+n=260 
+print(m<n) 
+
+ 
+
+OUTPUT: 
+
+Picture 1666932505, Picture 
+
+ 
+
+Greater Than Equals To: >= -Verifies two numbers in two different condition. 
+
+`PROGRAM:   a=100 
+
+b=10 
+
+print(a>=b) 
+
+output: True 
+
+a=28 
+b=12 
+print(a>=b) 
+ 
+x=15 
+y=19 
+print(x>=y) 
+ 
+r=24 
+s=24 
+print(r>=s) 
+ 
+e=228 
+f=200 
+print(e>=f) 
+ 
+m=350 
+n=250 
+print(m>=n) 
+
+OUTPUT:  
+
+Picture 612924148, Picture 
+
+Less Than Equals to: <= - verifies two different numbers in two different condition. 
+
+PROGRAM:     a=100 
+
+b=10 
+
+Print(a<=b) 
+
+Output: false 
+
+a=46 
+b=39 
+print(a<=b) 
+ 
+t=65 
+u=65 
+print(t<=u) 
+ 
+k=68 
+l=70 
+print(k<=l) 
+ 
+h=40 
+i=50 
+print(h<=i) 
+ 
+w=130 
+x=120 
+print(w<=x) 
+
+OUTPUT:  
+
+Picture 1851264991, Picture 
+
+ASSIGNMENT OPERATOR: 
+
+=    
+
+PROGRAM: 
+
+a=10 
+
+b=50 
+
+c=60 
+
+Print(a,b,c) 
+
+Output: 10,50,60 
+
+a=10 
+b=20 
+c=30 
+print(a,b,c) 
+ 
+apple=12 
+mango=15 
+print(a,b) 
+ 
+e=23 
+f=14 
+g=16 
+print(e,f,g) 
+x=86 
+y=75 
+z=65 
+print(x,y,z) 
+ 
+students=40 
+staff=20 
+books=50 
+print(students,staff,books) 
+ 
+ 
+
+ OUTPUT:  
+
+Picture 1008654656, Picture 
+
++= 
+
+PROGRAM: 
+
+a=10 
+
+a+=2 
+
+print(a) 
+
+a=38 
+a+=49 
+print(a) 
+ 
+x=90 
+x+=10 
+print(x) 
+ 
+y=15 
+y+=25 
+print(y) 
+ 
+s=48 
+s+=65 
+print(s)	 
+
+ 
+
+ 
+
+ 
+
+ 
+
+OUTPUT: 
+
+Picture 114462874, Picture 
+
+-= 
+
+Program:     
+
+a=10 
+
+a-= 
+
+print(a) 
+
+output: 8 
+
+m=54 
+m-=34 
+print(m) 
+ 
+h=37 
+h-=75 
+print(m) 
+ 
+r=86 
+r-=43 
+print(r) 
+ 
+y=436 
+y-=75 
+print(y) 
+ 
+d=64 
+d-=60 
+print(d) 
+
+OUTPUT: 
+
+Picture 947606511, Picture 
+
+ 
+
+ 
+
+*=  
+
+ Program: 
+
+a=10 
+
+a*=5 
+
+print(a) 
+
+a=20 
+a*=12 
+print(a) 
+ 
+m=40 
+m*=22 
+print(m) 
+ 
+d=29 
+d*=3 
+print(d) 
+ 
+h=16 
+h*=12 
+print(h) 
+ 
+j=20 
+j*=12 
+print(j) 
+ 
+
+OUTPUT: 
+
+Picture 113611053, Picture 
+
+/=  
+
+Program: 
+
+a=10 
+
+a/=5 
+
+print(a) 
+
+output:2.0 
+
+g=85 
+g/=5 
+print(g) 
+ 
+h=200 
+h/=5 
+print(h) 
+ 
+i=854 
+i/=14 
+print(i) 
+ 
+j=227 
+j/=32 
+print(j) 
+ 
+k=46 
+k/=5 
+print(k) 
+
+OUTPUT: 
+
+Picture 1956732217, Picture 
+
+%= 
+
+Program: 
+
+a=10 
+
+a%=5 
+
+Print(a) 
+
+Output:0 
+
+a=25 
+a%=5 
+print(a) 
+ 
+b=20 
+b%=5 
+print(b) 
+ 
+c=32 
+c%=10 
+print(c) 
+ 
+d=32 
+d%=10 
+print(d) 
+ 
+f=12 
+f%=10 
+print(f) 
+ 
+
+OUTPUT: 
+
+Picture 402499202, Picture 
+
+//= 
+
+Program: 
+
+a=10 
+
+a//=5 
+
+print(a) 
+
+output:2 
+
+a=43 
+a//=5 
+print(a) 
+ 
+m=46 
+m//=34 
+print(m) 
+ 
+h=94 
+h//=23 
+print(h) 
+ 
+i=45 
+i//=34 
+print(i) 
+ 
+n=20 
+n//=14 
+print(n) 
+
+OUTPUT: 
+
+Picture 1036312519, Picture 
+
+&=    BITWISE OPERATOR: 
+
+Program: 
+
+a=10 
+
+a&=5 
+
+print(a) 
+
+output:0 
+
+a=20 
+a&=4 
+print(a) 
+ 
+l=280 
+l&=4 
+print(l) 
+ 
+h=45 
+h&=20 
+print(h) 
+ 
+j=34 
+j&=30 
+print(j) 
+ 
+m=20 
+m&=14 
+print(m) 
+
+OUTPUT:  
+
+Picture 777991187, Picture 
+
+|= - Bitwise OR Operator:  
+
+Program; 
+
+a=10 
+
+a|=5 
+
+print(a) 
+
+output:15 
+
+h=100 
+h|=15 
+print(h) 
+ 
+i=15 
+i|=5 
+print(i) 
+ 
+j=156 
+j|=55 
+print(j) 
+ 
+k=68 
+k|=22 
+print(k) 
+ 
+l=75 
+l|=24 
+print(l) 
+
+OUTPUT:  
+
+Picture 710471112, Picture 
+
+Example: 2-010 
+
+1-001 
+
+3-011 
+
+ 
+
+^=h  -BITWISE NOT OPERATOR 
+
+Program: 
+
+a=10 
+
+a^=5 
+
+print(a) 
+
+output:1 
+
+ 
+
+>>= 
+
+<<= 
+
+:= 
+
+ 
+
+IDENTITY OPERATOR: used to compare the objects. 
+
+ IS: Return True if both are same. 
+
+a = “apple”  
+
+b= “mango” 
+
+Print (a is b) 
+
+Output: false. 
+
+a="tomato" 
+b="mango" 
+print(a is b) 
+ 
+x="orange" 
+y="orange" 
+print(x is y) 
+ 
+ 
+p=2 
+q=2 
+r=3 
+print(p is q) 
+print(q is r) 
+print(r is p) 
+
+OUTPUT: 
+
+Picture 320668367, Picture 
+
+IS NOT: Returns true if both are not same. 
+
+a= apple 
+
+b=mango 
+
+Print (a is not b) 
+
+Output: True. 
+
+a=[23,24,25] 
+b=[40.41,42] 
+print(a is not b) 
+ 
+x=["apple","mango","orange"] 
+y=["apple","mango","orange"] 
+z=["tomato","kiwi","chiku"] 
+print(x is not y) 
+print(x is not z) 
+print(z is not x) 
+print(y is not z) 
+
+OUTPUT: 
+
+Picture 145473004, Picture 
+
+ 
+
+MEMBERSHIP OPERATOR: Used to test the sequence is present: 
+
+IN:  
+
+a= ["apple”, “mango”, “banana”] 
+
+b= “mango” 
+
+Print (b in a) 
+
+Output: True. 
+
+a=["science","social","english"] 
+b="social" 
+print(b in a) 
+ 
+x=["mango","lemon","apple"] 
+y="orange" 
+print(y in x) 
+ 
+p=["34","35","36"] 
+q=["39","34","32"] 
+r="34" 
+print(q in p) 
+print(r in p) 
+print(r in q) 
+
+OUTPUT: 
+
+Picture 1698137687, Picture 
+
+NOT IN:  
+
+a= ["apple”, “mango”, “banana”] 
+
+b= “kiwi” 
+
+Print (b not in a) 
+
+Output: True. 
+
+x=["12","22","32"] 
+y="42" 
+print(y not in x) 
+ 
+m=["46","22","68"] 
+n="46" 
+print(n not in m) 
+ 
+p=["10","20","30"] 
+q="42" 
+print(q not in p) 
+ 
+a=["126","622","562"] 
+b="657" 
+print(b not in a) 
+ 
+h=["apple","mango"] 
+i="orange" 
+print(i not in h) 
+
+OUTPUT: 
+
+Picture 1402258468, Picture 
+
+ 
+
+ 
+
+BITWISE OPERATORS: Used to compare binary numbers. 
+
+AND-&: sets each bit one if both the bits are one. 
+
+EXAMPLE:  
+
+Print(6&3) 
+
+Output: 2  
+
+ANALYSIS: 6 – 0110 
+
+         3 – 0011 
+
+         ----------- 
+
+         2 – 0010 
+
+         ----------- 
+
+print(6&3) 
+print(25&25) 
+print(3&4) 
+print(3&5) 
+print(12&17) 
+
+OUTPUT:  
+
+Picture 2128643648, Picture 
+
+OR-| : Sets each bit to one if one of the two bits is one. 
+
+EXAMPLE:  
+
+Print(6 0r 3) 
+
+Output: 7  
+
+Analysis: 6 – 0110 
+
+     3 – 0011 
+
+     ----------- 
+
+     7 – 0111 
+
+     ----------- 
+
+print(6|3) 
+ 
+print(15|8) 
+ 
+print(200|150) 
+ 
+print(132|12) 
+ 
+print(232|236) 
+ 
+
+OUTPUT: 
+
+Picture 629931200, Picture 
+
+XOR - ^ : sets each bit to 1 if one of the two bits is bit (1) 
+
+EAXMPLE: 
+
+print(6^3) 
+
+Output: 5 
+
+Analysis: 6 – 0110 
+
+     3 – 0011 
+
+     ----------- 
+
+     5 – 0101 
+
+     ----------- 
+
+print(5^2) 
+ 
+print(26^12) 
+ 
+print(15^13) 
+ 
+print(16^13) 
+ 
+print(28^22) 
+ 
+
+OUTPUT:  
+
+Picture 1709886942, Picture 
+
+NOT - ~ : inverts all the bits. 
+
+EAXMPLE: 
+
+print(~3) 
+
+Output: 4 
+
+Analysis: 3 – 0000 0000 0000 0011 
+
+     4 – 1111 1111 1111  1100 
+
+print(~2) 
+ 
+print(~5) 
+ 
+print(~3) 
+ 
+print(~260) 
+ 
+print(~32) 
+
+OUTPUT:  
+
+Picture 1360893156, Picture 
+
+Left shift - << : It will push zeroes from right side to the left side. 
+
+EAXMPLE: 
+
+print(3<<2) 
+
+Output: 12 
+
+Analysis: 3 – 0000 0000 0000 0011 
+
+     2 – 0000 000 0000 1100 
+
+print(3<<2) 
+ 
+print(23<<2) 
+ 
+print(20<<5) 
+ 
+print(76<<3) 
+ 
+print(8<<4) 
+
+OUTPUT: 
+
+ 
+
+Picture 15676821, Picture 
+
+Right shift - >> : It will push zeroes from left side to the right side. 
+
+EAXMPLE: 
+
+print(8>>2) 
+
+Output: 2 
+
+Analysis: 8 – 0000 0000 0000 1000 
+
+     	      2 – 0000 0000 0000 0010 
+
+print(8>>2) 
+ 
+print(24>>15) 
+ 
+print(4>>2) 
+ 
+print(12>>1) 
+ 
+print(16>>26) 
+
+OUTPUT: 
+
+Picture 918001162, Picture 
+
+ 
+
+PRESISDENCE ORDER: 
+
+( ) - PARATHESIS 
+
+** - EXPONENTIAL 
+
+(+*) - (-*) - (~*): UNIRAY PLUS, UNIRAY MINUS, BITWISE NOT. 
+
+*, /, //, % 
+
+<<, >> - BITWISE LEFT AND RIGHT 
+
+& - BITWISE AND 
+
+^ - BITWISE XOR 
+
+| - BITWISE OR  
+
+COMPARISION, MEMBERSHIP, IDENTITY. 
+
+LOGICAL OPERATORS. 
+
+ 
+
+ 
+
+print(15*2-5/2+10) 
+print((12+4)+(12-4)) 
+print(260/5+20*2-5) 
+print(10+5*(20-5)/3) 
+print(10+56-6*2/1) 
+print(8*3/2-8+20) 
+print((20+20)*2/5-14) 
+print((5+4)**2/14) 
+print(25/2+17//(2+3)**4) 
+print(5%250+12+14*(15-12)) 
+print(12*8-2+8*2//4%6) 
+print(16*6/1-16+2) 
