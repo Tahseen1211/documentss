@@ -1,0 +1,281 @@
+GIT 
+
+Global information tracker. 
+
+Need of Git- It is a central repository which we can manage our project source code. 
+
+GIT is also known as version control system (VCS). 
+
+It maintains all the versions of the applications developed so far. 
+
+Phone-pe dev 1991 V1-upgraded V2-2000-upgraded V10- 2024. 
+
+VERSION CONTROL SYSTEM: 
+
+Because of Versions, troubleshooting resolving the bugs is very easy. 
+
+If something goes wrong in current version we can roll back to the previous version. 
+
+It records all the modifications that are done when modified(timestamp) and why it is modified. 
+
+Git on distributed version control system. 
+
+Git is used mainly for two reasons: 
+
+Version Control System. 
+
+Collaboration. 
+
+Team A 	Team B 
+
+Dev -20	       15 
+
+Dev1 write his own code. 
+
+Dev2 write his own code 
+
+Dev3 write his own code. 
+
+Code will be stored in Github  
+
+How can they make use code? 
+
+Sharing Github repo Link. 
+
+We will create common repository to store code. 
+
+Why do we need git? 
+
+To maintain the versions of same file. 
+
+FUNCTIONALITIES OF VCS: 
+
+Allow multiple developers to develop their code simultaneously. 
+
+Doesn't allow over writing each other changes until we provide proper permissions. 
+
+Maintain a history of versions. 
+
+Git is fast when compared with each other versions control system. 
+
+Multiple developers can collaborate share their ideas and work together in a same project. 
+
+It is also works as backing up project code. 
+
+ 
+
+TYPES OF VERSION CONTROL SYSTEM: 
+
+There are two types of version control system. 
+
+CVCS: Centralized version control system. 
+
+It is a centralized server. 
+
+It consists of only the current version of data. 
+
+Each and every developer should develop their code by connecting to the server only. 
+
+DVCS: Decentralized Version Control System or Distributed Version Control System. 
+
+DISADVANTAGES:  
+
+Server can accessed by any one. 
+
+Anyone can copy their code. 
+
+If the server crashed everything will be lost.- no backup. 
+
+ GIT WORKFLOW 
+
+A Git workflow defines the process of how developers manage code changes, collaborate, and release software. 
+
+It outlines how to use Git effectively. Ensuring code organization, traceability. And easy reversibility. A standard Git workflow involves cloning a repository, making changes, staging those changes, committing them and then sharing them. 
+
+ 
+
+Proposed by Vincent Driessen at 2010  
+
+ Strict branching model designed around the project release  
+
+Robust framework for managing larger projects 
+
+ Assigns very specific roles to different branches and defines how and when they should interact 
+
+ As before, one central bare repository as the communication hub for all developers. 
+
+Each new feature should reside in its own branch, which can be pushed to the central repository for backup/collaboration.  
+
+Feature branches branch from develops. 
+
+When a feature is complete, it gets merged back into develop  
+
+Feature branches combined with the develop branch is, for all intents and purposes, the Feature Branch Workflow. 
+
+ 
+
+ 
+
+Git workflow: Working with Local Repository: 
+
+Picture 
+
+Git workflow: Working with Central Repository 
+
+Picture 
+
+Picture 
+
+ 
+
+Git workflow: Working with Feature Branch  
+
+The Feature Branch Workflow still uses a central repository, and master still represents the official project history. 
+
+ But, instead of committing directly on their local master branch, developers create a new branch every time they start work on a new feature.  
+
+Feature branches should have descriptive names as login-template-header, login-http-resource, refactoring-login-service, etc. 
+
+ 
+
+Now your team is working alongside of the remote master branch, everyone is working on a feature branch. When each feature is done and are up to put on development the branch should be merged with remote master by a Pull Request. 
+
+ 
+
+Picture 
+
+Working with Feature Branch: 
+
+ Pull Requests are a feature that makes it easier for developers to collaborate using a git client (GitHub, Bitbucket, Stash, etc.).  
+
+They provide a user-friendly web interface for discussing proposed changes before integrating them into the official project. 
+
+Pull request is a dedicated forum for discussing the proposed feature. 
+
+If there are any problems with the changes, teammates can post feedback in the pull request and even tweak the feature by pushing follow-up commits. 
+
+All this activity is tracked directly inside of the pull request. 
+
+Essentially a PR should be closed after a Code Review with other developers. Code review is a major benefit of pull requests. 
+
+You can think of pull requests as a discussion dedicated to a particular branch. 
+
+ 
+
+ 
+
+GIT WORKFLOW: 
+
+Working with Gitflow is a Git workflow implementing tool that helps with continuous software development and implementing DevOps practices. It was first published and made popular by Vincent Driessen at Nive. The Gitflow Workflow defines a strict branching model designed around the project release. This provides a robust framework for managing larger projects. Gitflow is ideally suited for projects that have a scheduled release cycle and for the DevOps best practice of continuous delivery. 
+
+Types of branch in Gitflow : 
+
+- Major release- main 
+
+- development – develop 
+
+- feature  
+
+- Minor release – release 
+
+- hotfix 
+
+- support 
+
+ 
+
+Git workflow: 
+
+ Working with Gitflow The git flow init command is an extension of the default git init command and doesn't change anything in your repository other than creating branches for you.  
+
+ 
+Release Branches 
+
+Release Branches: Finish: 
+
+Picture 
+
+
+
+
+S.No 
+
+Git 
+
+GitHub 
+
+01. 
+
+Git is a software. 
+
+GitHub is a service. 
+
+02. 
+
+Git is a command-line tool 
+
+GitHub is a graphical user interface 
+
+03. 
+
+Git is installed locally on the system 
+
+GitHub is hosted on the web 
+
+04. 
+
+Git is maintained by linux. 
+
+GitHub is maintained by Microsoft. 
+
+05. 
+
+Git is focused on version control and code sharing. 
+
+GitHub is focused on centralized source code hosting. 
+
+06. 
+
+Git is a version control system to manage source code history.  
+  
+
+GitHub is a hosting service for Git repositories. 
+
+07. 
+
+Git was first released in 2005.  
+  
+
+GitHub was launched in 2008. 
+
+08. 
+
+Git has no user management feature.  
+  
+
+GitHub has a built-in user management feature. 
+
+09. 
+
+Git is open-source licensed. 
+
+GitHub includes a free-tier and pay-for-use tier. 
+
+10. 
+
+Git has minimal external tool configuration. 
+
+GitHub has an active marketplace for tool integration. 
+
+11. 
+
+Git provides a Desktop interface named Git Gui. 
+
+GitHub provides a Desktop interface named GitHub Desktop. 
+
+12. 
+
+Git competes with CVS, Subversion, Mercurial, etc. 
+
+GitHub competes with GitLab, Bit Bucket, AWS Code Commit, Azure DevOps Server, etc. 
+
